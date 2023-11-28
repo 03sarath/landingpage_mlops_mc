@@ -1,12 +1,14 @@
 <template>
   <div>
     <el-header style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
-      <el-image style="width: 50px; height: 50px; margin-right: 10px;" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/psitron_logo_wit_small.png" fit="fill" />
+      
       <nav style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
         <!-- <router-link to="https://psitrontech.com/" style="margin: 5px;">Curriculum</router-link> -->
         <!-- <router-link to="/about" style="margin: 5px;">About</router-link> -->
-        <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+        <i @click="go_back()" style="color:white; font-size: 30px;" class="el-icon-back"></i>
+
       </nav>
+      <el-image style="width: 50px; height: 50px; margin-right: 10px;" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/psitron_logo_wit_small.png" fit="fill" />
     </el-header>
     <el-main >
       <p style="font-size: 25px; text-align: left; padding-top: 5px;"><b>MLOps Specialization Course</b></p>
@@ -30,7 +32,11 @@
             </div>
             <div class="col">
               <br>
-              <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button>
+              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+
+              <form ref="razorpayForm1">
+                <!-- Content inside the first form, if needed -->
+              </form>
             </div>
           </div>
           <ul v-if="hide_info_basic_in == true" style="color:gray; font-size: 15px; text-align: left;">
@@ -62,9 +68,11 @@
               <br>
               <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
 
-              <form ref="razorpayForm">
-              
+              <form ref="razorpayForm2">
+                <!-- Content inside the second form, if needed -->
               </form>
+              
+           
             </div>
           </div>
           <ul v-if="hide_info_adv_in == true" style="color:gray; font-size: 15px; text-align: left;">
@@ -93,11 +101,17 @@
              <el-link @click="hide_info_advp_in = true, more_info_advp_in = false" v-if="more_info_advp_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
              <el-link @click="hide_info_advp_in = false, more_info_advp_in = true" v-if="hide_info_advp_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
             </div>
+           
             <div class="col">
               <br>
-              <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button>
+              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+
+              <form ref="razorpayForm3">
+               
+              </form>
             </div>
           </div>
+        
           <ul v-if="hide_info_advp_in == true" style="color:gray; font-size: 15px; text-align: left;">
             <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
             <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
@@ -117,7 +131,7 @@
             <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i></li>
             <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Instant access <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> Access to previous batch recordings</i></li>
           </ul>
-          
+          <hr>
         </div>
       </div>
     </div>
@@ -138,7 +152,10 @@
             </div>
             <div class="col">
               <br>
-              <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button>
+              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+              <form ref="razorpayForm4">
+               
+              </form>
            
             </div>
           </div>
@@ -167,7 +184,11 @@
             </div>
             <div class="col">
               <br>
-              <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button>
+              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+
+              <form ref="razorpayForm5">
+               
+              </form>
             </div>
           </div>
           <ul v-if="hide_info_adv_us == true" style="color:gray; font-size: 15px; text-align: left;">
@@ -195,10 +216,14 @@
              <h4 style="color: gray;">$699</h4>
              <el-link  @click="hide_info_advp_us = true, more_info_advp_us = false" v-if="more_info_advp_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
              <el-link  @click="hide_info_advp_us = false, more_info_advp_us = true" v-if="hide_info_advp_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
+           
             </div>
             <div class="col">
               <br>
-              <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button>
+              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+              <form ref="razorpayForm6">
+               
+              </form>
             </div>
           </div>
           <ul v-if="hide_info_advp_us == true" style="color:gray; font-size: 15px; text-align: left;">
@@ -220,6 +245,7 @@
             <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i></li>
             <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Instant access <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> Access to previous batch recordings</i></li>
           </ul>
+          <hr>
         </div>
    
       </div>
@@ -259,27 +285,41 @@ export default {
       hide_info_adv_us:false,
 
       more_info_advp_us:true,
-      hide_info_advp_us:false
+      hide_info_advp_us:false,
+      plans: [
+        "pl_N5pPqGfOtbpTD2",
+        "pl_N5qKXfjNdM7bxW",
+        "pl_N5qMUf1JdSwAgG",
+        "pl_N5qRTbe0RnQ0hf",
+        "pl_N5qhPstCoAZaZ9",
+        "pl_N5rEU2qA0VnEA9",
+        // Add more plan IDs as needed
+      ],
+
     }
   },
 
   created() {},
 
-  methods: {},
+  methods: {
+    go_back(){
+      this.$router.push('/')
+    }
+  },
+
   mounted() {
-    // Access the form element using the ref
-    const formElement = this.$refs.razorpayForm;
+    // Loop through each button ID and create a script for each
+    this.plans.forEach((planId, index) => {
+      const formElement = this.$refs[`razorpayForm${index + 1}`];
 
-    // Create a script element
-    const script = document.createElement("script");
+      const script = document.createElement("script");
+      script.src = "https://checkout.razorpay.com/v1/payment-button.js";
+      script.async = true;
+      script.dataset.payment_button_id = planId;
 
-    // Set the script source to the Razorpay payment button script
-    script.src = "https://checkout.razorpay.com/v1/payment-button.js";
-    script.async = true;
-    script.dataset.payment_button_id = "pl_N5o0RCAaTwTVXs";
-
-    // Append the script to the form element
-    formElement.appendChild(script);
+      // Append the script to the form element
+      formElement.appendChild(script);
+    });
   },
 
 }

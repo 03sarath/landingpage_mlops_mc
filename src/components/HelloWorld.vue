@@ -54,9 +54,67 @@
 <h4 v-if="errorinfo_status == true" style="color: red;text-align: center" >{{errorinfo}}</h4>
 
   <span style="text-align: center;" slot="footer" class="dialog-footer">
-    <el-button @click="signUpUser()" class="dynamic-button">Next</el-button>
+    <el-button @click="signUpUser()" style="font-size:25px;" class="dynamic-button">Next</el-button>
   </span>
 </el-dialog>
+
+
+<el-dialog
+title="Download Curriculum"
+:visible.sync="centerDialogVisibleDownload"
+width="90%"
+center>
+<ValidationObserver ref="formRegUser">
+<form @submit.prevent="">
+
+  <!-- First Name Validation -->
+  <ValidationProvider  name="First Name" rules="required" v-slot="{ errors }">
+    <label label="First Name:" required> <strong>First Name</strong>
+      <el-input v-model="firstname" placeholder="Enter Your First Name" type="text"></el-input>
+    </label>
+    <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+  </ValidationProvider>
+
+  <!-- Last Name Validation -->
+  <ValidationProvider name="Last Name" rules="required" v-slot="{ errors }">
+    <label label="Last Name:" required><strong>Last Name</strong>
+      <el-input v-model="lastname" placeholder="Enter Your Last Name" type="text"></el-input>
+    </label>
+    <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+  </ValidationProvider>
+
+  <!-- E-mail Validation -->
+  <ValidationProvider name="E-mail" rules="required|email" v-slot="{ errors }">
+    <label label="E-MAIL:" required><strong>Email</strong>
+      <br /><el-input v-model="email" placeholder="Enter Your Email" type="email"></el-input>
+    </label>
+    <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+  </ValidationProvider>
+
+  <!-- Phone Number Validation -->
+  <ValidationProvider name="Phone Number" rules="required" v-slot="{ errors }">
+    <label label="Phone Number:" required><strong>Phone Number</strong>
+      <!-- <p>{{ results }}</p> -->
+      <VuePhoneNumberInput
+        v-model="phoneNumber"
+        @update="onUpdate"
+        class="mb-2"
+        :default-country-code="defaultCountry"
+        :no-validator-state="true"
+      />
+    </label>
+    <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+  </ValidationProvider>
+</form>
+</ValidationObserver>
+<br>
+<h4 v-if="errorinfo_status == true" style="color: red;text-align: center" >{{errorinfo}}</h4>
+
+<span style="text-align: center;" slot="footer" class="dialog-footer">
+  <el-button @click="download_curriculum()" style="font-size:25px;" class="dynamic-button">Download</el-button>
+</span>
+</el-dialog>
+
 
 <div class="common-layout">
   <el-header style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
@@ -73,17 +131,18 @@
          <h3 class="title_1" style="padding-bottom: 5px;padding-left: 20px; padding-right: 20px;padding-top: 5px; background-color: rgba(192, 192, 192, 0.26); color: rgb(251, 105, 52);"><b>Learn to Design production <u>ML Pipelines</u></b></h3>
          <div class="content-wrapper">
            <h1 class="title" style="margin-top:30px">MLOps Specialization Course</h1>
-           <h3 class="subtitle">Learn to Design production ML Pipelines</h3>
+           <!-- <h3 class="subtitle">Learn to Design production ML Pipelines</h3> -->
          </div>
  
  
  <el-row style="background-color: #c500fc23; border-radius: 10px; padding: 10px;">
    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="right-align">
-     <el-image key="" src="https://mcusercontent.com/a06b94b6481b306e000825bd4/images/87eacec1-ada1-8610-7ef6-8552bed80bfd.png" class="drop-shadow" lazy /> &nbsp;ß
+     <el-image key="" src="https://mcusercontent.com/a06b94b6481b306e000825bd4/images/87eacec1-ada1-8610-7ef6-8552bed80bfd.png" class="drop-shadow" lazy /> &nbsp;
    </el-col> 
    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="left-align">
      <div class="content-wrapper">
       <br>
+     
        <h2 class="subtitle_2"><b><span class="tick-mark" style="color: #fd6c34;">&#9473;&#9473;&nbsp;</span>Training Features:<span class="tick-mark" style="color: #fd6c34;">&#9473;&#9473;&nbsp;</span></b></h2>
        <ul class="topic-list">
       
@@ -96,17 +155,23 @@
    </el-col>
  </el-row>
  
- 
          <br>
-         <el-button @click="centerDialogVisible = true"  style="padding: 24px;; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
+         <el-button @click="centerDialogVisible = true"  style="padding: 24px; font-size:20px; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
           <br>
           <br>
-         <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from 6th January 2024!</h4>
+         <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from <b style="color: #fd6c34;">6th January 2024!</b></h4>
+    
        </el-main>
 
        <el-main >
         <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Curriculum</b></h1>
-
+        <p style="font-size: 15px; text-align: center; padding-bottom: 5px;"><b>From 6 Jan 2023 | Every Saturday and Sunday</b></p>
+        <p style="font-size: 15px; text-align: center; color:#29063e; padding-bottom: 5px;"><b>7:00 PM to 11:00 PM IST | 9:30 AM to 1:30 PM EST | 3:30 PM to 7:30 PM CST</b></p>
+        <!-- <ul style="text-align: left; color:rgb(0, 0, 0)">
+         <li>7:00 PM to 11:00 PM IST</li>
+         <li>9:30 AM to 1:30 PM EST</li>
+         <li>3:30 PM to 7:30 PM CST</li>
+       </ul> -->
         <div class="accordion" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
@@ -498,7 +563,7 @@
     </div>
 
     <br>
-    <el-button @click="centerDialogVisible = true"  style="padding: 24px;; background: linear-gradient(to right, #7b2fd8, #ba34fd, #0d00ff); color: #fff; font-weight: bold;">Download Curriculum</el-button>
+    <el-button @click="centerDialogVisibleDownload = true"  style="padding: 24px; font-size:20px; background: linear-gradient(to right, #7b2fd8, #ba34fd, #0d00ff); color: #fff; font-weight: bold;">Download Curriculum</el-button>
     <br>
     <br>
     <p style="font-size: 28px;">Tools Covered</p>
@@ -553,7 +618,7 @@
 
 
        <el-main style="background: #f2f7f9;">
-         <p style="font-size: 28px;">What Exactly Is</p>
+         <!-- <p style="font-size: 28px;">What Exactly Is</p> -->
          <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">About Program</h1>
          <br>
  
@@ -592,7 +657,7 @@
        
  
        <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from 6th January 2024!</h4>
-       <el-button @click="centerDialogVisible = true"  style="padding: 24px;; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
+       <el-button @click="centerDialogVisible = true"  style="padding: 24px;font-size:20px; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
              </el-main> 
        
  
@@ -683,7 +748,7 @@
        
  
        <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from 6th January 2024!</h4>
-       <el-button @click="centerDialogVisible = true"  style="padding: 24px;; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
+       <el-button @click="centerDialogVisible = true"  style="padding: 24px; font-size:20px; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
              </el-main> 
  
              <el-mnain style="background: #f2f7f9;">
@@ -694,7 +759,19 @@
    <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/atema8uex2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  </div>
  <br>
-  <p><strong>Nisheeth Jaiswal</strong>- Participants - MLOps</p>
+  <p><strong>Nisheeth Jaiswal</strong>- Data Scientist from UK</p>
+
+  <div class="o-video">
+    <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/vdwU4urzdpc?si=Knbbb93xJPrV5J_L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <br>
+   <p><strong>Balasubramanian</strong>- what <b>ISRO</b> engineer has to say!</p>
+
+   <div class="o-video">
+    <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/bXKGKUHMlaQ?si=9E33HOx4qpWXPjLK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <br>
+   <p><strong>Rahul Patil </strong>- Congratulations on your new job 👏  well deserved!</p> 
  
   <div class="o-video">
    <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/8LJld1V9el8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -707,7 +784,7 @@
    <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/_UC_s98YquM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
  </div>
  <br>
-  <p><strong>Fathima Hafeez</strong>- Participants - MLOps</p>
+  <p><strong>Fathima Hafeez</strong>- Application support engineer for Google</p>
           </el-mnain>
  
  
@@ -785,7 +862,7 @@
        
  
        <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from 6th January 2024!</h4>
-       <el-button @click="centerDialogVisible = true"  style="padding: 24px;; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
+       <el-button @click="centerDialogVisible = true"  style="padding: 24px; font-size:20px; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
              </el-main> 
  
              <el-main style="background: #f2f7f9;">
@@ -866,6 +943,7 @@ import 'vue-phone-number-input/dist/vue-phone-number-input.css'
 import { required, email } from 'vee-validate/dist/rules';
 import { extend } from 'vee-validate';
 import post_AWS_API from '/src/api_aws.js'
+import { Loading } from 'element-ui'
 
 // Register the required and email rules
 extend('required', required);
@@ -895,6 +973,7 @@ export default {
       lastname:'',
       email:'',
       centerDialogVisible:false,
+      centerDialogVisibleDownload:false,
       who:[
       'Data Scientists',
 'Data engineers & Data Analysts',
@@ -914,21 +993,12 @@ export default {
     },
 
     signUpUser() {
-      // if (this.numberof_Users === this.get_Subscription_status.quantity) {
-      //   this.showSwal('warning-message-and-confirmation')
-      //   return
-      // }
+   
       this.$refs.formRegUser.validate().then(success => {
         if (!success) {
           return
         }
-      console.log("Inside", this.firstname,this.lastname,this.email,this.results.formattedNumber)
-        // if (this.userRegType == false) {
-        //   this.signUp()
-        // } else if (this.userRegType == true) {
-        //   this.saveInvited_user()
-        // }
-
+      //console.log("Inside", this.firstname,this.lastname,this.email,this.results.formattedNumber)
       var get_date = new Date();
       var ISOtime = get_date.toISOString();
         
@@ -938,21 +1008,25 @@ export default {
         "first_name":this.firstname,
         "last_name":this.lastname,
         "email":this.email,
-        "phone":this.results.formattedNumber
+        "phone":this.results.formattedNumber,
+        "lead_status":"payment"
         },
         "mode":"put_item"
       
       };
-
+      let loadingInstance = Loading.service({ fullscreen: true })
         post_AWS_API(data)
         .then(dataAWS => {
-          console.log(dataAWS)
+          //console.log(dataAWS)
           if (dataAWS.data.body == 'Put item successful') {
+            loadingInstance.close()
             this.$router.push('about')
           } else if (dataAWS.data.body == 'Error updating DynamoDB item') {
+            loadingInstance.close()
             this.errorinfo_status = true
             this.errorinfo = 'Whoops,something went wrong.Please try again!'
           } else {
+            loadingInstance.close()
             this.errorinfo_status = true
             this.errorinfo = 'Whoops,something went wrong.Please try again!'
           }
@@ -964,6 +1038,55 @@ export default {
 
       })
     },
+    download_curriculum(){
+      // window.location.href = 'https://bit.ly/mlops-curriculum-nov23';
+
+      this.$refs.formRegUser.validate().then(success => {
+        if (!success) {
+          return
+        }
+      //console.log("Inside", this.firstname,this.lastname,this.email,this.results.formattedNumber)
+      var get_date = new Date();
+      var ISOtime = get_date.toISOString();
+        
+      var data= {
+        "item":{
+        "time_stamp":ISOtime,
+        "first_name":this.firstname,
+        "last_name":this.lastname,
+        "email":this.email,
+        "phone":this.results.formattedNumber,
+        "lead_status":"curriculum"
+        },
+        "mode":"put_item"
+      
+      };
+      let loadingInstance = Loading.service({ fullscreen: true })
+        post_AWS_API(data)
+        .then(dataAWS => {
+          //console.log(dataAWS)
+          if (dataAWS.data.body == 'Put item successful') {
+            loadingInstance.close()
+            //window.location.href = 'https://bit.ly/mlops-curriculum-nov23';
+            window.open('https://bit.ly/mlops-curriculum-nov23', '_blank');
+            this.centerDialogVisibleDownload = false
+          } else if (dataAWS.data.body == 'Error updating DynamoDB item') {
+            loadingInstance.close()
+            this.errorinfo_status = true
+            this.errorinfo = 'Whoops,something went wrong.Please try again!'
+          } else {
+            loadingInstance.close()
+            this.errorinfo_status = true
+            this.errorinfo = 'Whoops,something went wrong.Please try again!'
+          }
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
+
+
+      })
+    }
   }
  
 }
