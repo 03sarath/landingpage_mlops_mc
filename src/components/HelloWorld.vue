@@ -133,11 +133,12 @@ center>
            <h1 class="title" style="margin-top:30px">MLOps Specialization Course</h1>
            <!-- <h3 class="subtitle">Learn to Design production ML Pipelines</h3> -->
          </div>
- 
+
+    
  
  <el-row style="background-color: #c500fc23; border-radius: 10px; padding: 10px;">
    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="right-align">
-     <el-image key="" src="https://mcusercontent.com/a06b94b6481b306e000825bd4/images/87eacec1-ada1-8610-7ef6-8552bed80bfd.png" class="drop-shadow" lazy /> &nbsp;
+     <el-image key="" src="https://mcusercontent.com/a06b94b6481b306e000825bd4/images/87eacec1-ada1-8610-7ef6-8552bed80bfd.png" class="drop-shadow" lazy /> &nbsp;&nbsp;&nbsp;
    </el-col> 
    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="left-align">
      <div class="content-wrapper">
@@ -167,400 +168,405 @@ center>
         <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Curriculum</b></h1>
         <p style="font-size: 15px; text-align: center; padding-bottom: 5px;"><b>From 6 Jan 2023 | Every Saturday and Sunday</b></p>
         <p style="font-size: 15px; text-align: center; color:#29063e; padding-bottom: 5px;"><b>7:00 PM to 11:00 PM IST | 9:30 AM to 1:30 PM EST | 3:30 PM to 7:30 PM CST</b></p>
-        <!-- <ul style="text-align: left; color:rgb(0, 0, 0)">
-         <li>7:00 PM to 11:00 PM IST</li>
-         <li>9:30 AM to 1:30 PM EST</li>
-         <li>3:30 PM to 7:30 PM CST</li>
-       </ul> -->
-        <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <span style="color:rgb(255, 123, 0)"><b>Module 1</b></span> - MLOps Introduction
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-           <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">&nbsp;What is MLOps?</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Machine learning industrialisation challenges</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Motivation: High-level view</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps challenges</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps challenges similar to DevOps</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Components</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Machine Learning Life Cycle</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;How does it relate to DevOps, AIOps, ModelOps, and GitOps?</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Major Phases - what it takes to master MLOps</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;CI/CD in Production Case Study</li>
-           </ul>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-           <p><b style="color:rgb(255, 123, 0)">Module 2</b>- Introduction to ML and MLOps stages</p>
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-         <ul style="color: black; font-size: 17px; text-align: left;">
-           <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Maturity Model?</li>
-           <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Detailed MLOps and stages</li>
-           <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Versioning</li>
-<li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Testing</li>
-<li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Automation (CI/CD)</li>
-<li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Reproducibility</li>
-<li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Deployment</li>
-<li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Monitoring</li>
-
-           </ul>
-           <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Architectures</li>
-           <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Architectures - Open Source tools</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Architectures - Open Source tools - Kubeflow, Apache Airflow, MLFlow, Metaflow, Kedro, ZenML, MLRun, CML</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Comparison among cloud-native tools</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;The cost-benefit approach of each architecture and MLOps maturity</li>
-           </ul>
-           <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;List of tools involved in each stage (MLOps tool ecosystem</li>
-           <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Different Roles involved in MLOps ( ML Engineering + Operations )</li>
     
-         </ul>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-           <p><b style="color:rgb(255, 123, 0)">Module 3</b>- Introduction to Git <i style="color:gray">Hands-on</i></p>
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-         <ul style="color: black; font-size: 17px; text-align: left;">
-           <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Overview of Git</li>
-           <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Understanding branching strategies and REPO</li>
-           <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Standard GIT branching strategies (development, feature, bug, release, UAT)</li>
-           <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Practising important Git commands</li>
-           <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;GitHub Action overview and working</li>
-         </ul>
-        </div>
-      </div>
 
-      <!-- Accordion Item 4 -->
-<div class="accordion-item">
- <h2 class="accordion-header" id="headingFour">
-   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-     <p><b style="color:rgb(255, 123, 0)">Module 4</b>- Introduction to CI/CD <i style="color:gray">Hands-on</i></p>
-   </button>
- </h2>
- <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-   <ul style="color: black; font-size: 17px; text-align: left;">
-     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Introduction to CI and CD</li>
-     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;CI/CD challenges in Machine Learning</li>
-     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Steps involved in the CI/CD implementation in ML lifecycle and workflow</li>
-     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;A glimpse of popular Tools used in the DevOps ecosystem on the Cloud.
-       <ul style="color: black; font-size: 17px; text-align: left;">
-         <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;AWS DevOp
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <span style="color:rgb(255, 123, 0)"><b>Module 1</b></span> - MLOps Introduction
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                     <ul style="color: black; font-size: 17px; text-align: left;">
+                       <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">&nbsp;What is MLOps?</li>
+                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Machine learning industrialisation challenges</li>
+                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Motivation: High-level view</li>
+                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps challenges</li>
+                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps challenges similar to DevOps</li>
+                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Components</li>
+                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Machine Learning Life Cycle</li>
+                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;How does it relate to DevOps, AIOps, ModelOps, and GitOps?</li>
+                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Major Phases - what it takes to master MLOps</li>
+                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;CI/CD in Production Case Study</li>
+                     </ul>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <p><b style="color:rgb(255, 123, 0)">Module 2</b>- Introduction to ML and MLOps stages</p>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                   <ul style="color: black; font-size: 17px; text-align: left;">
+                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Maturity Model?</li>
+                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Detailed MLOps and stages</li>
+                     <ul style="color: black; font-size: 17px; text-align: left;">
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Versioning</li>
+          <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Testing</li>
+          <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Automation (CI/CD)</li>
+          <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Reproducibility</li>
+          <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Deployment</li>
+          <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Monitoring</li>
+          
+                     </ul>
+                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Architectures</li>
+                     <ul style="color: black; font-size: 17px; text-align: left;">
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Architectures - Open Source tools</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Architectures - Open Source tools - Kubeflow, Apache Airflow, MLFlow, Metaflow, Kedro, ZenML, MLRun, CML</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Comparison among cloud-native tools</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;The cost-benefit approach of each architecture and MLOps maturity</li>
+                     </ul>
+                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;List of tools involved in each stage (MLOps tool ecosystem</li>
+                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Different Roles involved in MLOps ( ML Engineering + Operations )</li>
+              
+                   </ul>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                     <p><b style="color:rgb(255, 123, 0)">Module 3</b>- Introduction to Git <i style="color:gray">Hands-on</i></p>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                   <ul style="color: black; font-size: 17px; text-align: left;">
+                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Overview of Git</li>
+                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Understanding branching strategies and REPO</li>
+                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Standard GIT branching strategies (development, feature, bug, release, UAT)</li>
+                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Practising important Git commands</li>
+                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;GitHub Action overview and working</li>
+                   </ul>
+                  </div>
+                </div>
+          
+                <!-- Accordion Item 4 -->
+          <div class="accordion-item">
+           <h2 class="accordion-header" id="headingFour">
+             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+               <p><b style="color:rgb(255, 123, 0)">Module 4</b>- Introduction to CI/CD <i style="color:gray">Hands-on</i></p>
+             </button>
+           </h2>
+           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+             <ul style="color: black; font-size: 17px; text-align: left;">
+               <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Introduction to CI and CD</li>
+               <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;CI/CD challenges in Machine Learning</li>
+               <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Steps involved in the CI/CD implementation in ML lifecycle and workflow</li>
+               <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;A glimpse of popular Tools used in the DevOps ecosystem on the Cloud.
+                 <ul style="color: black; font-size: 17px; text-align: left;">
+                   <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;AWS DevOp
+                     <ul style="color: black; font-size: 17px; text-align: left;">
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodeCommit</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodePipeline</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodeBuild</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodeDeploy</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;<b>Project: </b>AWS DevOps Pipeline</li>              
+                     </ul>
+                   </li>
+                   <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;GCP DevOps
+                     <ul style="color: black; font-size: 17px; text-align: left;">
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Source Repositories</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Run</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Build</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Deploy</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Artifacts Registry</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;<b>Project: </b> GCP DevOps Pipeline</li>
+                                    
+                     </ul>
+                   </li>
+                   <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure DevOps
+                     <ul style="color: black; font-size: 17px; text-align: left;">
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Boards</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Repos</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Pipeline</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Test Plans</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Artifacts</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;<b>Project: </b> Azure DevOps Pipeline</li>
+                                    
+                     </ul>
+                   </li>
+                 </ul>
+               
+               </li>
+               
+             </ul>
+           </div>
+          </div>
+          <!-- Accordion Item 5 -->
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+             <p><b style="color:rgb(255, 123, 0)">Module 5</b>- Docker & Kubernetes Overview <i style="color:gray">Hands-on</i></p>
+           </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
            <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodeCommit</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodePipeline</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodeBuild</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodeDeploy</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;<b>Project: </b>AWS DevOps Pipeline</li>              
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Docker Foundation</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Installing Docker on Windows, macOS & Linux</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Managing Containers with Docker Commands</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;How does it work? Docker registry - Docker Hub</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Building your own Docker images</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploy ML model in Docker container</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubernetes Overview</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubernetes Architecture
+               <ul style="color: black; font-size: 17px; text-align: left;">
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Nodes</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Control Plane</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;API Server</li>
+               </ul>
+             </li>
+          
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubernetes Resources
+               <ul style="color: black; font-size: 17px; text-align: left;">
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Pod</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Deployment</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Replica</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Service</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Volumes (PVC)</li>
+                 
+               </ul>
+             </li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Minikube</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploy ML model in Kubernetes cluster</li>
+             
            </ul>
-         </li>
-         <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;GCP DevOps
+          </div>
+          </div>
+          
+          <!-- Accordion Item 6 -->
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+             <p><b style="color:rgb(255, 123, 0)">Module 6</b>- Kubernetes Deployment Strategy <i style="color:gray">Hands-on</i></p>
+           </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
            <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Source Repositories</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Run</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Build</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Deploy</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Artifacts Registry</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;<b>Project: </b> GCP DevOps Pipeline</li>
-                          
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Liveness and Readiness Probes</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Labels and Selectors</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploying an ML Model using Docker and Amazon EKS</li>
            </ul>
-         </li>
-         <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure DevOps
+          </div>
+          </div>
+          
+          <!-- Accordion Item 7 -->
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+             <p><b style="color:rgb(255, 123, 0)">Module 7</b>- Introduction to Model Management  <i style="color:gray">Hands-on</i></p>
+           </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
            <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Boards</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Repos</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Pipeline</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Test Plans</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Artifacts</li>
-             <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;<b>Project: </b> Azure DevOps Pipeline</li>
-                          
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;What is a Model Management</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;What are the various activities in Model Management
+               <ul style="color: black; font-size: 17px; text-align: left;">
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Data Versioning</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Code Versioning</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Experiment Tracker</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Model Registry</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Model Monitoring</li>
+                 
+               </ul>
+          
+             </li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;A high-level overview of the below Model Management tools
+               <ul style="color: black; font-size: 17px; text-align: left;">
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;MLFlow</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy MLFlow stack on the cloud</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Build, train, and deploy an ML model using MLFlow</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;DVC</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Git Large File Storage (LFS)</li>
+                 
+               </ul>
+             </li>
            </ul>
-         </li>
-       </ul>
-     
-     </li>
-     
-   </ul>
- </div>
-</div>
-<!-- Accordion Item 5 -->
-<div class="accordion-item">
-<h2 class="accordion-header" id="headingFive">
- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-   <p><b style="color:rgb(255, 123, 0)">Module 5</b>- Docker & Kubernetes Overview <i style="color:gray">Hands-on</i></p>
- </button>
-</h2>
-<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
- <ul style="color: black; font-size: 17px; text-align: left;">
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Docker Foundation</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Installing Docker on Windows, macOS & Linux</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Managing Containers with Docker Commands</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;How does it work? Docker registry - Docker Hub</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Building your own Docker images</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploy ML model in Docker container</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubernetes Overview</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubernetes Architecture
-     <ul style="color: black; font-size: 17px; text-align: left;">
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Nodes</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Control Plane</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;API Server</li>
-     </ul>
-   </li>
+          </div>
+          </div>
+          
+          <!-- Accordion Item 8 -->
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+             <p><b style="color:rgb(255, 123, 0)">Module 8</b>- Feature Store <i style="color:gray">Hands-on</i></p>
+           </button>
+          </h2>
+          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+           <ul style="color: black; font-size: 17px; text-align: left;">
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Introduction to Feature Stores, SageMaker Feature Store, Vertex AI</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feature Store, Databricks, Tecton, Feast, Hopsworks etc.</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feast open-source feature store</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feature Store: Online Vs Offline</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploy Feast Online/Offline feature store</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Online Feature Store using DynamoDB</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Offline Feature Store using S3</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitor ML features using Amazon SageMaker Feature Store and AWS Glue DataBrew</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitor features programmatically</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Visualizing feature drift over time</li>
+           </ul>
+          </div>
+          </div>
+          
+          <!-- Accordion Item 9 -->
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingNine">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+             <p><b style="color:rgb(255, 123, 0)">Module 9</b>- Cloud ML Services 101 <i style="color:gray">Hands-on</i></p>
+           </button>
+          </h2>
+          <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+           <ul style="color: black; font-size: 17px; text-align: left;">
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;AWS SageMaker
+               <ul style="color: black; font-size: 17px; text-align: left;">
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Introduction to Amazon SageMaker</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Using Amazon S3 along with SageMaker</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Amazon SageMaker Notebooks</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Notebook instance type, IAM Role & VPC</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Build, Train & deploy ML Model using SageMaker</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Endpoint & Endpoint configurations</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Generate inference from deployed model</li>
+               </ul>
+             </li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;AWS SageMaker Pipelines
+               <ul style="color: black; font-size: 17px; text-align: left;">
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;SageMaker Studio & SageMaker domain</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;SageMaker Projects</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Repositories</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Pipelines & Graphs</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Experiments</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Model groups</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Endpoints</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy an end-to-end MLOps pipeline using SageMaker Studio</li>
+               </ul>
+             </li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;GCP VertexAI
+               <ul style="color: black; font-size: 17px; text-align: left;">
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Introduction of Vertex AI</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Gather, Import & label datasets</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Build, Train & deploy ML Solutions</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Manage your models with confidence</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Using Pipelines throughout your ML workflow</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Adapting to changes in data</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Creating models with Vertex AI and deploying ML models using aiplatform pipelines</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy an end-to-end MLOps pipeline using Vertex AI</li>
+                 
+               </ul>
+             </li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Azure MLOps
+               <ul style="color: black; font-size: 17px; text-align: left;">
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure Machine Learning Studio</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure MLOps</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure ML components</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure MLOps + DevOps</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Fully automated end-to-end CI/CD ML pipelines</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy an end-to-end MLOps V2 pipeline using Azure Machine Learning</li>
+               </ul>
+             </li>
+           </ul>
+          </div>
+          </div>
+          
+          <!-- Accordion Item 10 -->
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTen">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+             <p><b style="color:rgb(255, 123, 0)">Module 10</b>- Kubeflow Intro <i style="color:gray">Hands-on</i></p>
+           </button>
+          </h2>
+          <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+           <ul style="color: black; font-size: 17px; text-align: left;">
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow Introduction</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow- Who uses it</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow features</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow Fairing</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow Pipelines</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow use cases</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Pipeline formation with Kubeflow</li>
+           </ul>
+          </div>
+          </div>
+          
+          <!-- Accordion Item 11 -->
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEleven">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+             <p><b style="color:rgb(255, 123, 0)">Module 11</b>- Introduction to Model Monitoring <i style="color:gray">Hands-on</i></p>
+           </button>
+          </h2>
+          <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+           <ul style="color: black; font-size: 17px; text-align: left;">
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Importance Of Model Monitoring</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;What are the various types of monitoring related to the model</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;The architecture of monitoring ecosystem in AWS/Azure/GCP
+               <ul style="color: black; font-size: 17px; text-align: left;">
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;AWS Model Monitoring</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure Model Monitoring</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;GCP Model Monitoring</li>
+               </ul>
+             </li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Optimize and Manage Models at the Edge</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Common Issues in ML Model Deployment</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feedback Loop Role</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Model & infrastructure monitoring using cloud tools</li>
+             
+           </ul>
+          </div>
+          </div>
+          
+          <!-- Accordion Item 12 -->
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwelve">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+             <p><b style="color:rgb(255, 123, 0)">Module 12</b>- Introduction to Automl tools <i style="color:gray">Demo</i></p>
+           </button>
+          </h2>
+          <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+           <ul style="color: black; font-size: 17px; text-align: left;">
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;H20 MLOps</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Valohai</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Domino Data Lab</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;neptune.ai</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;iguazio</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;W&B</li>
+             
+           </ul>
+          </div>
+          </div>
+          
+          <!-- Accordion Item 13 -->
+          <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThirteen">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+             <p><b style="color:rgb(255, 123, 0)">Module 13</b>- Post-Deployment Challenges <i style="color:gray">Hands-on</i></p>
+           </button>
+          </h2>
+          <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+           <ul style="color: black; font-size: 17px; text-align: left;">
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment Challenges intro</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment Challenges - ML Related</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Challenges when deploying machine learning to edge devices</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment - Monitoring the Drift - Evidently</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitoring the Drift - Using SageMaker</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment Challenges - Software Engineering Related</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Common Issues in ML Model Deployment</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Evidently AI for Monitoring the Drift</li>
+             
+             
+           </ul>
+             </div>
+           </div>
+          
+          
+              </div>
+              </div>
+              </div>
+              </div>
 
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubernetes Resources
-     <ul style="color: black; font-size: 17px; text-align: left;">
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Pod</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Deployment</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Replica</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Service</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Volumes (PVC)</li>
-       
-     </ul>
-   </li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Minikube</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploy ML model in Kubernetes cluster</li>
    
- </ul>
-</div>
-</div>
-
-<!-- Accordion Item 6 -->
-<div class="accordion-item">
-<h2 class="accordion-header" id="headingSix">
- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-   <p><b style="color:rgb(255, 123, 0)">Module 6</b>- Kubernetes Deployment Strategy <i style="color:gray">Hands-on</i></p>
- </button>
-</h2>
-<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
- <ul style="color: black; font-size: 17px; text-align: left;">
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Liveness and Readiness Probes</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Labels and Selectors</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploying an ML Model using Docker and Amazon EKS</li>
- </ul>
-</div>
-</div>
-
-<!-- Accordion Item 7 -->
-<div class="accordion-item">
-<h2 class="accordion-header" id="headingSeven">
- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-   <p><b style="color:rgb(255, 123, 0)">Module 7</b>- Introduction to Model Management  <i style="color:gray">Hands-on</i></p>
- </button>
-</h2>
-<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
- <ul style="color: black; font-size: 17px; text-align: left;">
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;What is a Model Management</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;What are the various activities in Model Management
-     <ul style="color: black; font-size: 17px; text-align: left;">
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Data Versioning</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Code Versioning</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Experiment Tracker</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Model Registry</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Model Monitoring</li>
-       
-     </ul>
-
-   </li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;A high-level overview of the below Model Management tools
-     <ul style="color: black; font-size: 17px; text-align: left;">
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;MLFlow</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy MLFlow stack on the cloud</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Build, train, and deploy an ML model using MLFlow</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;DVC</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Git Large File Storage (LFS)</li>
-       
-     </ul>
-   </li>
- </ul>
-</div>
-</div>
-
-<!-- Accordion Item 8 -->
-<div class="accordion-item">
-<h2 class="accordion-header" id="headingEight">
- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-   <p><b style="color:rgb(255, 123, 0)">Module 8</b>- Feature Store <i style="color:gray">Hands-on</i></p>
- </button>
-</h2>
-<div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
- <ul style="color: black; font-size: 17px; text-align: left;">
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Introduction to Feature Stores, SageMaker Feature Store, Vertex AI</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feature Store, Databricks, Tecton, Feast, Hopsworks etc.</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feast open-source feature store</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feature Store: Online Vs Offline</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploy Feast Online/Offline feature store</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Online Feature Store using DynamoDB</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Offline Feature Store using S3</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitor ML features using Amazon SageMaker Feature Store and AWS Glue DataBrew</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitor features programmatically</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Visualizing feature drift over time</li>
- </ul>
-</div>
-</div>
-
-<!-- Accordion Item 9 -->
-<div class="accordion-item">
-<h2 class="accordion-header" id="headingNine">
- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-   <p><b style="color:rgb(255, 123, 0)">Module 9</b>- Cloud ML Services 101 <i style="color:gray">Hands-on</i></p>
- </button>
-</h2>
-<div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
- <ul style="color: black; font-size: 17px; text-align: left;">
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;AWS SageMaker
-     <ul style="color: black; font-size: 17px; text-align: left;">
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Introduction to Amazon SageMaker</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Using Amazon S3 along with SageMaker</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Amazon SageMaker Notebooks</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Notebook instance type, IAM Role & VPC</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Build, Train & deploy ML Model using SageMaker</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Endpoint & Endpoint configurations</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Generate inference from deployed model</li>
-     </ul>
-   </li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;AWS SageMaker Pipelines
-     <ul style="color: black; font-size: 17px; text-align: left;">
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;SageMaker Studio & SageMaker domain</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;SageMaker Projects</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Repositories</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Pipelines & Graphs</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Experiments</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Model groups</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Endpoints</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy an end-to-end MLOps pipeline using SageMaker Studio</li>
-     </ul>
-   </li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;GCP VertexAI
-     <ul style="color: black; font-size: 17px; text-align: left;">
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Introduction of Vertex AI</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Gather, Import & label datasets</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Build, Train & deploy ML Solutions</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Manage your models with confidence</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Using Pipelines throughout your ML workflow</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Adapting to changes in data</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Creating models with Vertex AI and deploying ML models using aiplatform pipelines</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy an end-to-end MLOps pipeline using Vertex AI</li>
-       
-     </ul>
-   </li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Azure MLOps
-     <ul style="color: black; font-size: 17px; text-align: left;">
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure Machine Learning Studio</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure MLOps</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure ML components</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure MLOps + DevOps</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Fully automated end-to-end CI/CD ML pipelines</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy an end-to-end MLOps V2 pipeline using Azure Machine Learning</li>
-     </ul>
-   </li>
- </ul>
-</div>
-</div>
-
-<!-- Accordion Item 10 -->
-<div class="accordion-item">
-<h2 class="accordion-header" id="headingTen">
- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-   <p><b style="color:rgb(255, 123, 0)">Module 10</b>- Kubeflow Intro <i style="color:gray">Hands-on</i></p>
- </button>
-</h2>
-<div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
- <ul style="color: black; font-size: 17px; text-align: left;">
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow Introduction</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow- Who uses it</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow features</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow Fairing</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow Pipelines</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow use cases</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Pipeline formation with Kubeflow</li>
- </ul>
-</div>
-</div>
-
-<!-- Accordion Item 11 -->
-<div class="accordion-item">
-<h2 class="accordion-header" id="headingEleven">
- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-   <p><b style="color:rgb(255, 123, 0)">Module 11</b>- Introduction to Model Monitoring <i style="color:gray">Hands-on</i></p>
- </button>
-</h2>
-<div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
- <ul style="color: black; font-size: 17px; text-align: left;">
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Importance Of Model Monitoring</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;What are the various types of monitoring related to the model</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;The architecture of monitoring ecosystem in AWS/Azure/GCP
-     <ul style="color: black; font-size: 17px; text-align: left;">
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;AWS Model Monitoring</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure Model Monitoring</li>
-       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;GCP Model Monitoring</li>
-     </ul>
-   </li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Optimize and Manage Models at the Edge</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Common Issues in ML Model Deployment</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feedback Loop Role</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Model & infrastructure monitoring using cloud tools</li>
-   
- </ul>
-</div>
-</div>
-
-<!-- Accordion Item 12 -->
-<div class="accordion-item">
-<h2 class="accordion-header" id="headingTwelve">
- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-   <p><b style="color:rgb(255, 123, 0)">Module 12</b>- Introduction to Automl tools <i style="color:gray">Demo</i></p>
- </button>
-</h2>
-<div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
- <ul style="color: black; font-size: 17px; text-align: left;">
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;H20 MLOps</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Valohai</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Domino Data Lab</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;neptune.ai</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;iguazio</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;W&B</li>
-   
- </ul>
-</div>
-</div>
-
-<!-- Accordion Item 13 -->
-<div class="accordion-item">
-<h2 class="accordion-header" id="headingThirteen">
- <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-   <p><b style="color:rgb(255, 123, 0)">Module 13</b>- Post-Deployment Challenges <i style="color:gray">Hands-on</i></p>
- </button>
-</h2>
-<div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
- <ul style="color: black; font-size: 17px; text-align: left;">
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment Challenges intro</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment Challenges - ML Related</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Challenges when deploying machine learning to edge devices</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment - Monitoring the Drift - Evidently</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitoring the Drift - Using SageMaker</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment Challenges - Software Engineering Related</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Common Issues in ML Model Deployment</li>
-   <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Evidently AI for Monitoring the Drift</li>
-   
-   
- </ul>
-   </div>
- </div>
-
-
-    </div>
 
     <br>
     <el-button @click="centerDialogVisibleDownload = true"  style="padding: 24px; font-size:20px; background: linear-gradient(to right, #7b2fd8, #ba34fd, #0d00ff); color: #fff; font-weight: bold;">Download Curriculum</el-button>
@@ -579,41 +585,49 @@ center>
          <h1 class="title_4" style="color:rgb(247, 218, 100) ;  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Trainer</b></h1>
  
          
-           <el-row :gutter="20">
-     <!-- <el-col :span="2"><div class="grid-content ep-bg-purple" /></el-col> -->
-     <!-- <el-col :span="12"><div class="grid-content ep-bg-purple" /> -->
-       <el-result  style="background-color: #ffffffcc; border-radius: 20px; padding: 10px;" title="Sarath Kumar" sub-title="Data Scientist | Founder- Psitron Technologies |Educator & Mentor
- 
- Enabler of Applied Analytics, Data Scientist, Artificial Intelligence, and Deep Learning,MLOps for real business problems
- 
- Effective manager, Mentor, trainer, problem solver, and proactive contributor with excellent communication, interpersonal skills, and exposure to managing task forces with result-oriented achievements and project delivery">
-           
-           <template #icon>
-        
-       
-             <el-avatar :size="250">
-             <img
-               src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/sarathkumar.jpg"
-             />
-           </el-avatar>
-           </template>
-           <template #extra>
-             <!-- <el-button type="primary">Back</el-button> -->
-             <a href="https://www.facebook.com/psitrontech" target="_blank" class="social-media-icon">
-       <i class="fab fa-facebook"></i>
-     </a>
-     <a href="https://psitrontech.com/" target="_blank" class="social-media-icon">
-       <i class="fas fa-globe"></i>
-     </a>
-     <a href="https://www.linkedin.com/company/psitron-technologies/" target="_blank" class="social-media-icon">
-       <i class="fab fa-linkedin"></i>
-     </a>
- 
-           </template>
-         </el-result>
-     <!-- </el-col> -->
-     <!-- <el-col :span="2"><div class="grid-content ep-bg-purple" /></el-col> -->
-   </el-row>
+     
+
+   <div class="container">
+    <div class="row">
+      <div class="col">
+        <el-row :gutter="20">
+          <!-- <el-col :span="2"><div class="grid-content ep-bg-purple" /></el-col> -->
+          <!-- <el-col :span="12"><div class="grid-content ep-bg-purple" /> -->
+            <el-result  style="background-color: #ffffffcc; font-size:30px; border-radius: 20px; padding: 10px;" title="Sarath Kumar" sub-title="Data Scientist | Founder- Psitron Technologies |Educator & Mentor
+      
+      Enabler of Applied Analytics, Data Scientist, Artificial Intelligence, and Deep Learning,MLOps for real business problems
+      
+      Effective manager, Mentor, trainer, problem solver, and proactive contributor with excellent communication, interpersonal skills, and exposure to managing task forces with result-oriented achievements and project delivery">
+         
+                <template  #icon>
+             
+            
+                  <el-avatar :size="250">
+                  <img
+                    src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/sarathkumar.jpg"
+                  />
+                </el-avatar>
+                </template>
+                <template #extra>
+                  <!-- <el-button type="primary">Back</el-button> -->
+                  <a href="https://www.facebook.com/psitrontech" target="_blank" class="social-media-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="https://psitrontech.com/" target="_blank" class="social-media-icon">
+            <i class="fas fa-globe"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/psitron-technologies/" target="_blank" class="social-media-icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+      
+                </template>
+              </el-result>
+          <!-- </el-col> -->
+          <!-- <el-col :span="2"><div class="grid-content ep-bg-purple" /></el-col> -->
+        </el-row>
+        </div>
+        </div>
+        </div>
        </el-main>
 
 
@@ -621,36 +635,56 @@ center>
          <!-- <p style="font-size: 28px;">What Exactly Is</p> -->
          <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">About Program</h1>
          <br>
+         <div class="container">
+          <div class="row">
+            <div class="col">
+              <el-card style="background-color: #ffffff; border-radius: 10px; padding: 10px;" class="box-card">
+                <template #header>
+                  <div class="card-header">
+                    <h2>Hottest Job of the <b style="color: #fd6c34;">21st Century</b></h2>
+                  </div>
+                </template>
+                <span class="text-left">Machine learning and artificial intelligence is a field that drives major innovations across different industries. It is predicted that in <strong>2023</strong>, the AI market will reach <strong>$500 billion</strong>, and in 2030, <strong>$1,597.1 billion</strong> in size. This means that machine learning technologies will continue to be in high demand in the near future.</span>
+              </el-card>
+              </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <br>
+                  <el-card style="background-color: #ffffff; border-radius: 10px; padding: 10px;" class="box-card">
+                    <template #header>
+                      <div class="card-header">
+                        <h2>Who Can Apply for the  <b style="color: #fd6c34;">Masterclass?</b></h2>
+                      </div>
+                    </template>
+                    <ul class="topic-list">
+                          <li style="color: black; font-size: 20px;" v-for="who in who" :key="who" class="topic-item">
+                            <span class="tick-mark" style="color: #fd6c34;">&#10003;&nbsp;</span>{{ who }}
+                          </li>
+                        </ul>
+                      </el-card>
+                  </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col">
+                      <br>
+                      <h2>MLOps:<strong style="color: #fd6c34;">The Future of Machine Learning</strong></h2>   
+                  <p style="text-align: left;">Machine learning is transforming businesses across industries, but many ML projects fail to reach production. MLOps is the discipline of bringing ML projects to production and ensuring that they are reliable, scalable, and secure.</p>
+                  
+                  <p style="text-align: left;">In <strong>2023</strong>, MLOps will become the mandate skill set for enterprise ML projects. The market for <strong>MLOps is expected to reach $126 billion by 2025</strong>, and there is a growing demand for MLOps professionals.</p>
+                  
+                  <p style="text-align: left; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">If you are looking to get started with MLOps, you have come to the right place. Our hands-on course will teach you the skills you need to build and deploy ML models in production.</p>     
+                  <el-button @click="centerDialogVisible = true"  class="dynamic-button">Register Now</el-button>
+                      </div>
+                      </div>
+              </div>
+              
  
-         <el-card style="background-color: #ffffff; border-radius: 10px; padding: 10px;" class="box-card">
-   <template #header>
-     <div class="card-header">
-       <h2>Hottest Job of the <b style="color: #fd6c34;">21st Century</b></h2>
-     </div>
-   </template>
-   <span class="text-left">Machine learning and artificial intelligence is a field that drives major innovations across different industries. It is predicted that in <strong>2023</strong>, the AI market will reach <strong>$500 billion</strong>, and in 2030, <strong>$1,597.1 billion</strong> in size. This means that machine learning technologies will continue to be in high demand in the near future.</span>
- </el-card>
- <br>
- <el-card style="background-color: #ffffff; border-radius: 10px; padding: 10px;" class="box-card">
-   <template #header>
-     <div class="card-header">
-       <h2>Who Can Apply for the  <b style="color: #fd6c34;">Masterclass?</b></h2>
-     </div>
-   </template>
-   <ul class="topic-list">
-         <li style="color: black; font-size: 20px;" v-for="who in who" :key="who" class="topic-item">
-           <span class="tick-mark" style="color: #fd6c34;">&#10003;&nbsp;</span>{{ who }}
-         </li>
-       </ul>
-     </el-card>
-     <br>
-     <h2>MLOps:<strong style="color: #fd6c34;">The Future of Machine Learning</strong></h2>   
- <p style="text-align: left;">Machine learning is transforming businesses across industries, but many ML projects fail to reach production. MLOps is the discipline of bringing ML projects to production and ensuring that they are reliable, scalable, and secure.</p>
- 
- <p style="text-align: left;">In <strong>2023</strong>, MLOps will become the mandate skill set for enterprise ML projects. The market for <strong>MLOps is expected to reach $126 billion by 2025</strong>, and there is a growing demand for MLOps professionals.</p>
- 
- <p style="text-align: left; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">If you are looking to get started with MLOps, you have come to the right place. Our hands-on course will teach you the skills you need to build and deploy ML models in production.</p>     
- <el-button @click="centerDialogVisible = true"  class="dynamic-button">Register Now</el-button>
+
+
+  
        </el-main>
  
        <el-main style="background:linear-gradient(to right, #170b47, #412068, #170b47);">
@@ -730,9 +764,16 @@ center>
  
  
      <el-main>
-         <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Job opportunities</h1>
-         <p style="text-align: left;">MLOps is an essential practice that helps organizations manage their machine-learning projects more effectively. It combines machine learning with DevOps practices to create end-to-end pipelines for your models. MLOps is becoming increasingly important as more and more businesses are adopting machine learning to gain a competitive advantage. </p>
-         <h4 class="title_1" style="padding-bottom: 5px;padding-left: 20px; padding-right: 20px;padding-top: 5px; background-color: rgba(192, 192, 192, 0.26); color: rgb(251, 105, 52);">The average salary for an MLOps engineer starts from <b>₹23.1 Lakhs</b> according to 6figr.com.</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Job opportunities</h1>
+            <p style="text-align: left;">MLOps is an essential practice that helps organizations manage their machine-learning projects more effectively. It combines machine learning with DevOps practices to create end-to-end pipelines for your models. MLOps is becoming increasingly important as more and more businesses are adopting machine learning to gain a competitive advantage. </p>
+            <h4 class="title_1" style="padding-bottom: 5px;padding-left: 20px; padding-right: 20px;padding-top: 5px; background-color: rgba(192, 192, 192, 0.26); color: rgb(251, 105, 52);">The average salary for an MLOps engineer starts from <b>₹23.1 Lakhs</b> according to 6figr.com.</h4>
+            </div>
+            </div>
+            </div>
+
          <br>
          <br>
          <el-image key="url3" src="https://mcusercontent.com/a06b94b6481b306e000825bd4/images/0a121d16-8af9-f085-a349-8c73539faf66.jpg" class="drop-shadow" lazy />
@@ -754,37 +795,44 @@ center>
              <el-mnain style="background: #f2f7f9;">
                <p style="font-size: 28px;">Glimpse of our happy participants</p>
                <h1 class="title_4" style="color:rgb(38, 40, 131) ;  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Testimonials</b></h1>
-               <!-- <iframe style=" background-color: #9000ffcc; border-radius: 20px; padding: 10px;" width="560" height="315" src="https://www.youtube.com/embed/atema8uex2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-               <div class="o-video">
-   <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/atema8uex2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- </div>
- <br>
-  <p><strong>Nisheeth Jaiswal</strong>- Data Scientist from UK</p>
+               <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="o-video">
+                      <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/atema8uex2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <br>
+                     <p><strong>Nisheeth Jaiswal</strong>- Data Scientist from UK</p>
+                   
+                     <div class="o-video">
+                       <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/vdwU4urzdpc?si=Knbbb93xJPrV5J_L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                     </div>
+                     <br>
+                      <p><strong>Balasubramanian</strong>- what <b>ISRO</b> engineer has to say!</p>
+                   
+                      <div class="o-video">
+                       <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/bXKGKUHMlaQ?si=9E33HOx4qpWXPjLK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                     </div>
+                     <br>
+                      <p><strong>Rahul Patil </strong>- Congratulations on your new job 👏  well deserved!</p> 
+                    
+                     <div class="o-video">
+                      <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/8LJld1V9el8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <br>
+                     <p><strong>Dhirendra Kumar Singh</strong>- Participants - MLOps</p>
+                    
+                    
+                     <div class="o-video">
+                      <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/_UC_s98YquM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <br>
+                     <p><strong>Fathima Hafeez</strong>- Application support engineer for Google</p>
+                    </div>
+                    </div>
+                    </div>
 
-  <div class="o-video">
-    <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/vdwU4urzdpc?si=Knbbb93xJPrV5J_L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-  <br>
-   <p><strong>Balasubramanian</strong>- what <b>ISRO</b> engineer has to say!</p>
 
-   <div class="o-video">
-    <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/bXKGKUHMlaQ?si=9E33HOx4qpWXPjLK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
-  <br>
-   <p><strong>Rahul Patil </strong>- Congratulations on your new job 👏  well deserved!</p> 
- 
-  <div class="o-video">
-   <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/8LJld1V9el8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- </div>
- <br>
-  <p><strong>Dhirendra Kumar Singh</strong>- Participants - MLOps</p>
- 
- 
-  <div class="o-video">
-   <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/_UC_s98YquM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
- </div>
- <br>
-  <p><strong>Fathima Hafeez</strong>- Application support engineer for Google</p>
           </el-mnain>
  
  
@@ -792,70 +840,81 @@ center>
            <!-- <p style="font-size: 28px;">Participants Feedback</p> -->
            <h1 class="title_4" style="color:rgb(247, 218, 100) ;  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Participants Feedback</b></h1>
  
- <el-row :gutter="20">
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url5" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/1mlops.jpg" class="drop-shadow" lazy />
-     </el-col>
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url6" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/2mlops.jpg" class="drop-shadow" lazy />
-     </el-col>
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url7" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/3mlops.jpg" class="drop-shadow" lazy />
-     </el-col>
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url8" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/4mlops.jpg" class="drop-shadow" lazy />
-     </el-col>
- 
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url9" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/image+-2.png" class="drop-shadow" lazy />
-     </el-col>
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url10" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/image-1.png" class="drop-shadow" lazy />
-     </el-col>
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url11" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/image.png" class="drop-shadow" lazy />
-     </el-col>
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url12" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/Screenshot_20211021-122406_WhatsApp.jpg" class="drop-shadow" lazy />
-     </el-col>
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url13" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/Screenshot_20220407-140840_WhatsApp.jpg" class="drop-shadow" lazy />
-     </el-col>
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url14" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/Screenshot_20220407-140852_WhatsApp.jpg" class="drop-shadow" lazy />
-     </el-col>
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url15" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/Screenshot_20220407-140900_WhatsApp.jpg" class="drop-shadow" lazy />
-     </el-col>
- 
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url16" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/Screenshot_20220510-125859_WhatsApp.jpg" class="drop-shadow" lazy />
-     </el-col>
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url17" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/WhatsApp+Image+2021-08-03+at+2.28.58+PM.jpg" class="drop-shadow" lazy />
-     </el-col>
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url18" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/WhatsApp+Image+2021-11-09+at+11.51.28+AM.jpeg" class="drop-shadow" lazy />
-     </el-col>
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url19" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/WhatsApp+Image+2021-11-09+at+11.50.52+AM.jpeg" class="drop-shadow" lazy />
-     </el-col>
- 
-     <el-col :span="12"><div class="grid-content ep-bg-purple" />
-       <el-image key="url20" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/WhatsApp+Image+2021-11-09+at+11.51.28+AM+(1).jpeg" class="drop-shadow" lazy />
-     </el-col>
-   </el-row>
+
+
+           <div class="container">
+            <div class="row">
+              <div class="col">
+                <el-row :gutter="20">
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url5" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/1mlops.jpg" class="drop-shadow" lazy />
+                  </el-col>
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url6" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/2mlops.jpg" class="drop-shadow" lazy />
+                  </el-col>
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url7" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/3mlops.jpg" class="drop-shadow" lazy />
+                  </el-col>
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url8" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/4mlops.jpg" class="drop-shadow" lazy />
+                  </el-col>
+              
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url9" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/image+-2.png" class="drop-shadow" lazy />
+                  </el-col>
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url10" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/image-1.png" class="drop-shadow" lazy />
+                  </el-col>
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url11" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/image.png" class="drop-shadow" lazy />
+                  </el-col>
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url12" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/Screenshot_20211021-122406_WhatsApp.jpg" class="drop-shadow" lazy />
+                  </el-col>
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url13" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/Screenshot_20220407-140840_WhatsApp.jpg" class="drop-shadow" lazy />
+                  </el-col>
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url14" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/Screenshot_20220407-140852_WhatsApp.jpg" class="drop-shadow" lazy />
+                  </el-col>
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url15" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/Screenshot_20220407-140900_WhatsApp.jpg" class="drop-shadow" lazy />
+                  </el-col>
+              
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url16" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/Screenshot_20220510-125859_WhatsApp.jpg" class="drop-shadow" lazy />
+                  </el-col>
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url17" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/WhatsApp+Image+2021-08-03+at+2.28.58+PM.jpg" class="drop-shadow" lazy />
+                  </el-col>
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url18" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/WhatsApp+Image+2021-11-09+at+11.51.28+AM.jpeg" class="drop-shadow" lazy />
+                  </el-col>
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url19" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/WhatsApp+Image+2021-11-09+at+11.50.52+AM.jpeg" class="drop-shadow" lazy />
+                  </el-col>
+              
+                  <el-col :span="12"><div class="grid-content ep-bg-purple" />
+                    <el-image key="url20" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/feedback-screenshot/WhatsApp+Image+2021-11-09+at+11.51.28+AM+(1).jpeg" class="drop-shadow" lazy />
+                  </el-col>
+                </el-row>
+                </div>
+               </div>
+             </div>   
+
+
+
  </el-main>
  
  <el-main style="background:linear-gradient(to right, #9b54b2, #682064, #954676);">
@@ -866,47 +925,56 @@ center>
              </el-main> 
  
              <el-main style="background: #f2f7f9;">
-   <h1 class="title_4" style="color:rgb(38, 40, 131) ;  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Who is Psitron Technologies? Why should you care?</b></h1>
- <p style="text-align: left;">Psitron Technologies is an IoT and AI company. Our mission at Psitron is to solve global problems with innovative technologies. Psitron has responsibility for developing innovative innovations for addressing current problems in industries, especially in order to improve uptime and reduce downtime of industries and to provide affordable industry 4.0 solutions to increase productivity in industries.</p>
- <h2>Supported By</h2>   
- <el-row :gutter="20">
-     <el-col :span="8"><div class="grid-content ep-bg-purple" />
-       <el-image key="url21" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/J1KLMdst.png" class="drop-shadow" lazy />
-       <p>Department of science & technology</p>
-     </el-col>
-     <el-col :span="8"><div class="grid-content ep-bg-purple" />
-       <el-image key="url22" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/Ngke2psgstep.png" class="drop-shadow" lazy />
-       <p>Incubated in PSG-STEP</p>
-     </el-col>
- 
-     <el-col :span="8"><div class="grid-content ep-bg-purple" />
-       <el-image key="url23" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/VCL7keir.png" class="drop-shadow" lazy />
-       <p>NIDHI Entrepreneur-in-Residence</p>
-     </el-col>
-   
-   </el-row>
-   <h2>Awards /Honours</h2>   
-   <el-row :gutter="20">
-     <el-col :span="8"><div class="grid-content ep-bg-purple" />
-       <el-image key="url24" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/qOvypfkcci.png" class="drop-shadow" lazy />
-       <p>FKCCI Bangalore best Startup award 2018</p>
-     </el-col>
-     <el-col :span="8"><div class="grid-content ep-bg-purple" />
-       <el-image key="url25" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/kyD6wlivingtalent.jpg" class="drop-shadow" lazy />
-       <p>Living Talent, Dubai finalist of international level innovation competition 2018</p>
-     </el-col>
- 
-     <el-col :span="8"><div class="grid-content ep-bg-purple" />
-       <el-image key="url26" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/vb5r3download.png" class="drop-shadow" lazy />
-       <p>HILTI International innovation competition finelist.</p>
-     </el-col>
- 
-     <el-col :span="8"><div class="grid-content ep-bg-purple" />
-       <el-image key="url27" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/0R8mxunlimitlogo.jpg" class="drop-shadow" lazy />
-       <p>IoT interThrone winner</p>
-     </el-col>
-   
-   </el-row>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h1 class="title_4" style="color:rgb(38, 40, 131) ;  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Who is Psitron Technologies? Why should you care?</b></h1>
+                    <p style="text-align: left;">Psitron Technologies is an IoT and AI company. Our mission at Psitron is to solve global problems with innovative technologies. Psitron has responsibility for developing innovative innovations for addressing current problems in industries, especially in order to improve uptime and reduce downtime of industries and to provide affordable industry 4.0 solutions to increase productivity in industries.</p>
+                  
+                    <h2>Supported By</h2>   
+                    <el-row :gutter="20">
+                        <el-col :span="8"><div class="grid-content ep-bg-purple" />
+                          <el-image key="url21" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/J1KLMdst.png" class="drop-shadow" lazy />
+                          <p>Department of science & technology</p>
+                        </el-col>
+                        <el-col :span="8"><div class="grid-content ep-bg-purple" />
+                          <el-image key="url22" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/Ngke2psgstep.png" class="drop-shadow" lazy />
+                          <p>Incubated in PSG-STEP</p>
+                        </el-col>
+                    
+                        <el-col :span="8"><div class="grid-content ep-bg-purple" />
+                          <el-image key="url23" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/VCL7keir.png" class="drop-shadow" lazy />
+                          <p>NIDHI Entrepreneur-in-Residence</p>
+                        </el-col>
+                      
+                      </el-row>
+                      <h2>Awards /Honours</h2>   
+                      <el-row :gutter="20">
+                        <el-col :span="8"><div class="grid-content ep-bg-purple" />
+                          <el-image key="url24" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/qOvypfkcci.png" class="drop-shadow" lazy />
+                          <p>FKCCI Bangalore best Startup award 2018</p>
+                        </el-col>
+                        <el-col :span="8"><div class="grid-content ep-bg-purple" />
+                          <el-image key="url25" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/kyD6wlivingtalent.jpg" class="drop-shadow" lazy />
+                          <p>Living Talent, Dubai finalist of international level innovation competition 2018</p>
+                        </el-col>
+                    
+                        <el-col :span="8"><div class="grid-content ep-bg-purple" />
+                          <el-image key="url26" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/vb5r3download.png" class="drop-shadow" lazy />
+                          <p>HILTI International innovation competition finelist.</p>
+                        </el-col>
+                    
+                        <el-col :span="8"><div class="grid-content ep-bg-purple" />
+                          <el-image key="url27" src="https://dz8fbjd9gwp2s.cloudfront.net/orgData/62dad9eb0cf244c802890de3/pages/assets/images/0R8mxunlimitlogo.jpg" class="drop-shadow" lazy />
+                          <p>IoT interThrone winner</p>
+                        </el-col>
+                      
+                      </el-row>
+                  </div>
+                    </div>
+                    </div>
+
+
  </el-main>
  
  

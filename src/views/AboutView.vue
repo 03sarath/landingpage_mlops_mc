@@ -11,246 +11,254 @@
       <el-image style="width: 50px; height: 50px; margin-right: 10px;" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/psitron_logo_wit_small.png" fit="fill" />
     </el-header>
     <el-main >
-      <p style="font-size: 25px; text-align: left; padding-top: 5px;"><b>MLOps Specialization Course</b></p>
-      <p style="font-size: 15px; text-align: left; padding-bottom: 5px;"><b>6 Jan 2023 | 7:00 PM IST Onwards</b></p>
-      <div class="accordion" id="accordionExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button style="font-size: 25px" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-      <span style="color:rgb(255, 123, 0)"><b>Indian participant</b></span>
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p style="font-size: 25px; text-align: left; padding-top: 5px;"><b>MLOps Specialization Course</b></p>
+            <p style="font-size: 15px; text-align: left; padding-bottom: 5px;"><b>6 Jan 2023 | 7:00 PM IST Onwards</b></p>
+            <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button style="font-size: 25px" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <span style="color:rgb(255, 123, 0)"><b>Indian participant</b></span>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                   <h3>Basic Plan</h3>
+                   <h4 style="color: gray;">₹39,999</h4>
+                   <el-link @click="hide_info_basic_in = true, more_info_basic_in = false" v-if="more_info_basic_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
+                   <el-link @click="hide_info_basic_in = false, more_info_basic_in = true" v-if="hide_info_basic_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
+                  </div>
+                  <div class="col">
+                    <br>
+                    <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
       
-        <div class="container">
-          <div class="row">
-            <div class="col">
-             <h3>Basic Plan</h3>
-             <h4 style="color: gray;">₹39,999</h4>
-             <el-link @click="hide_info_basic_in = true, more_info_basic_in = false" v-if="more_info_basic_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
-             <el-link @click="hide_info_basic_in = false, more_info_basic_in = true" v-if="hide_info_basic_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
-            </div>
-            <div class="col">
-              <br>
-              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-
-              <form ref="razorpayForm1">
-                <!-- Content inside the first form, if needed -->
-              </form>
-            </div>
-          </div>
-          <ul v-if="hide_info_basic_in == true" style="color:gray; font-size: 15px; text-align: left;">
-            <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
-              <ul style="color:gray; font-size: 13px; text-align: left;">
-                <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
-              </ul>
-            </li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
-          </ul>
-          <hr>
-          
-          <div class="row">
-            <div class="col">
-             <h3>Advanced Plan</h3>
-             <h4 style="color: gray;">₹41,999</h4>
-             <el-link @click="hide_info_adv_in = true, more_info_adv_in = false" v-if="more_info_adv_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
-             <el-link @click="hide_info_adv_in = false, more_info_adv_in = true" v-if="hide_info_adv_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
-             <br>
-            </div>
-            <div class="col">
-              <br>
-              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-
-              <form ref="razorpayForm2">
-                <!-- Content inside the second form, if needed -->
-              </form>
+                    <form ref="razorpayForm1">
+                      <!-- Content inside the first form, if needed -->
+                    </form>
+                  </div>
+                </div>
+                <ul v-if="hide_info_basic_in == true" style="color:gray; font-size: 15px; text-align: left;">
+                  <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
+                    <ul style="color:gray; font-size: 13px; text-align: left;">
+                      <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
+                    </ul>
+                  </li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
+                </ul>
+                <hr>
+                
+                <div class="row">
+                  <div class="col">
+                   <h3>Advanced Plan</h3>
+                   <h4 style="color: gray;">₹41,999</h4>
+                   <el-link @click="hide_info_adv_in = true, more_info_adv_in = false" v-if="more_info_adv_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
+                   <el-link @click="hide_info_adv_in = false, more_info_adv_in = true" v-if="hide_info_adv_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
+                   <br>
+                  </div>
+                  <div class="col">
+                    <br>
+                    <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+      
+                    <form ref="razorpayForm2">
+                      <!-- Content inside the second form, if needed -->
+                    </form>
+                    
+                 
+                  </div>
+                </div>
+                <ul v-if="hide_info_adv_in == true" style="color:gray; font-size: 15px; text-align: left;">
+                  <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
+                    <ul style="color:gray; font-size: 13px; text-align: left;">
+                      <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
+                    </ul>
+                  </li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>6 Month</b> Job Support</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i> </li>
+                </ul>
+                <hr>
+                <div class="row">
+                  <div class="col">
+                   <h3>Advanced Plus Plan</h3>
+                   <h4 style="color: gray;">₹47,999</h4>
+                   <el-link @click="hide_info_advp_in = true, more_info_advp_in = false" v-if="more_info_advp_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
+                   <el-link @click="hide_info_advp_in = false, more_info_advp_in = true" v-if="hide_info_advp_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
+                  </div>
+                 
+                  <div class="col">
+                    <br>
+                    <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+      
+                    <form ref="razorpayForm3">
+                     
+                    </form>
+                  </div>
+                </div>
               
-           
+                <ul v-if="hide_info_advp_in == true" style="color:gray; font-size: 15px; text-align: left;">
+                  <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
+                    <ul style="color:gray; font-size: 13px; text-align: left;">
+                      <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
+                    </ul>
+                  </li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>1 Year</b> Job Support</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i></li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Instant access <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> Access to previous batch recordings</i></li>
+                </ul>
+                <hr>
+              </div>
             </div>
           </div>
-          <ul v-if="hide_info_adv_in == true" style="color:gray; font-size: 15px; text-align: left;">
-            <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
-              <ul style="color:gray; font-size: 13px; text-align: left;">
-                <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
-              </ul>
-            </li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>6 Month</b> Job Support</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i> </li>
-          </ul>
-          <hr>
-          <div class="row">
-            <div class="col">
-             <h3>Advanced Plus Plan</h3>
-             <h4 style="color: gray;">₹47,999</h4>
-             <el-link @click="hide_info_advp_in = true, more_info_advp_in = false" v-if="more_info_advp_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
-             <el-link @click="hide_info_advp_in = false, more_info_advp_in = true" v-if="hide_info_advp_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button style="font-size: 25px" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span style="color:rgb(255, 123, 0)"><b>International Participant</b></span>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                   <h3>Basic Plan</h3>
+                   <h4 style="color: gray;">$549</h4>
+                   <el-link @click="hide_info_basic_us = true, more_info_basic_us = false" v-if="more_info_basic_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
+                   <el-link @click="hide_info_basic_us = false, more_info_basic_us = true" v-if="hide_info_basic_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
+                  </div>
+                  <div class="col">
+                    <br>
+                    <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+                    <form ref="razorpayForm4">
+                     
+                    </form>
+                 
+                  </div>
+                </div>
+                <ul v-if="hide_info_basic_us == true" style="color:gray; font-size: 15px; text-align: left;">
+                  <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
+                    <ul style="color:gray; font-size: 13px; text-align: left;">
+                      <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
+                    </ul>
+                  </li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
+                </ul>
+                <hr>
+                <div class="row">
+                  <div class="col">
+                   <h3>Advanced Plan</h3>
+                   <h4 style="color: gray;">$599</h4>
+                   <el-link @click="hide_info_adv_us = true, more_info_adv_us = false" v-if="more_info_adv_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
+                   <el-link @click="hide_info_adv_us = false, more_info_adv_us = true" v-if="hide_info_adv_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
+                  </div>
+                  <div class="col">
+                    <br>
+                    <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+      
+                    <form ref="razorpayForm5">
+                     
+                    </form>
+                  </div>
+                </div>
+                <ul v-if="hide_info_adv_us == true" style="color:gray; font-size: 15px; text-align: left;">
+                  <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
+                    <ul style="color:gray; font-size: 13px; text-align: left;">
+                      <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
+                    </ul>
+                  </li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>6 Month</b> Job Support</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i> </li>
+                </ul>
+                <hr>
+                <div class="row">
+                  <div class="col">
+                   <h3>Advanced Plus Plan</h3>
+                   <h4 style="color: gray;">$699</h4>
+                   <el-link  @click="hide_info_advp_us = true, more_info_advp_us = false" v-if="more_info_advp_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
+                   <el-link  @click="hide_info_advp_us = false, more_info_advp_us = true" v-if="hide_info_advp_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
+                 
+                  </div>
+                  <div class="col">
+                    <br>
+                    <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+                    <form ref="razorpayForm6">
+                     
+                    </form>
+                  </div>
+                </div>
+                <ul v-if="hide_info_advp_us == true" style="color:gray; font-size: 15px; text-align: left;">
+                  <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
+                    <ul style="color:gray; font-size: 13px; text-align: left;">
+                      <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
+                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
+                    </ul>
+                  </li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>1 Year</b> Job Support</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i></li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Instant access <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> Access to previous batch recordings</i></li>
+                </ul>
+                <hr>
+              </div>
+         
             </div>
-           
-            <div class="col">
-              <br>
-              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
+          </div>
+          </div>
+       
+           </div>
+         </div>
+      </div> 
 
-              <form ref="razorpayForm3">
-               
-              </form>
-            </div>
-          </div>
-        
-          <ul v-if="hide_info_advp_in == true" style="color:gray; font-size: 15px; text-align: left;">
-            <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
-              <ul style="color:gray; font-size: 13px; text-align: left;">
-                <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
-              </ul>
-            </li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>1 Year</b> Job Support</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i></li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Instant access <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> Access to previous batch recordings</i></li>
-          </ul>
-          <hr>
-        </div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="headingTwo">
-        <button style="font-size: 25px" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          <span style="color:rgb(255, 123, 0)"><b>International Participant</b></span>
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-             <h3>Basic Plan</h3>
-             <h4 style="color: gray;">$549</h4>
-             <el-link @click="hide_info_basic_us = true, more_info_basic_us = false" v-if="more_info_basic_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
-             <el-link @click="hide_info_basic_us = false, more_info_basic_us = true" v-if="hide_info_basic_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
-            </div>
-            <div class="col">
-              <br>
-              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-              <form ref="razorpayForm4">
-               
-              </form>
-           
-            </div>
-          </div>
-          <ul v-if="hide_info_basic_us == true" style="color:gray; font-size: 15px; text-align: left;">
-            <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
-              <ul style="color:gray; font-size: 13px; text-align: left;">
-                <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
-              </ul>
-            </li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
-          </ul>
-          <hr>
-          <div class="row">
-            <div class="col">
-             <h3>Advanced Plan</h3>
-             <h4 style="color: gray;">$599</h4>
-             <el-link @click="hide_info_adv_us = true, more_info_adv_us = false" v-if="more_info_adv_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
-             <el-link @click="hide_info_adv_us = false, more_info_adv_us = true" v-if="hide_info_adv_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
-            </div>
-            <div class="col">
-              <br>
-              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-
-              <form ref="razorpayForm5">
-               
-              </form>
-            </div>
-          </div>
-          <ul v-if="hide_info_adv_us == true" style="color:gray; font-size: 15px; text-align: left;">
-            <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
-              <ul style="color:gray; font-size: 13px; text-align: left;">
-                <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
-              </ul>
-            </li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>6 Month</b> Job Support</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i> </li>
-          </ul>
-          <hr>
-          <div class="row">
-            <div class="col">
-             <h3>Advanced Plus Plan</h3>
-             <h4 style="color: gray;">$699</h4>
-             <el-link  @click="hide_info_advp_us = true, more_info_advp_us = false" v-if="more_info_advp_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
-             <el-link  @click="hide_info_advp_us = false, more_info_advp_us = true" v-if="hide_info_advp_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
-           
-            </div>
-            <div class="col">
-              <br>
-              <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-              <form ref="razorpayForm6">
-               
-              </form>
-            </div>
-          </div>
-          <ul v-if="hide_info_advp_us == true" style="color:gray; font-size: 15px; text-align: left;">
-            <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
-              <ul style="color:gray; font-size: 13px; text-align: left;">
-                <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
-                <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
-              </ul>
-            </li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>1 Year</b> Job Support</li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i></li>
-            <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Instant access <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> Access to previous batch recordings</i></li>
-          </ul>
-          <hr>
-        </div>
-   
-      </div>
-    </div>
-    </div>
  
     </el-main>
 
@@ -299,7 +307,7 @@ export default {
     }
   },
 
-  created() {},
+  // created() {},
 
   methods: {
     go_back(){
