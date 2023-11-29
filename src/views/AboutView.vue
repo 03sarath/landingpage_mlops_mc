@@ -296,11 +296,11 @@ export default {
       hide_info_advp_us:false,
       plans: [
         "pl_N5pPqGfOtbpTD2",
-        "pl_N5qKXfjNdM7bxW",
-        "pl_N5qMUf1JdSwAgG",
-        "pl_N5qRTbe0RnQ0hf",
-        "pl_N5qhPstCoAZaZ9",
-        "pl_N5rEU2qA0VnEA9",
+        // "pl_N5qKXfjNdM7bxW",
+        // "pl_N5qMUf1JdSwAgG",
+        // "pl_N5qRTbe0RnQ0hf",
+        // "pl_N5qhPstCoAZaZ9",
+        // "pl_N5rEU2qA0VnEA9",
         // Add more plan IDs as needed
       ],
 
