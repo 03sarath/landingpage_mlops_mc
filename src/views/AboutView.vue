@@ -27,21 +27,24 @@
             
               <div class="container">
                 <div class="row">
-                  <div class="col">
+                  <div class="col" style="text-align: left;">
                    <h3>Basic Plan</h3>
                    <h4 style="color: gray;">₹39,999</h4>
                    <el-link @click="hide_info_basic_in = true, more_info_basic_in = false" v-if="more_info_basic_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
                    <el-link @click="hide_info_basic_in = false, more_info_basic_in = true" v-if="hide_info_basic_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
+                  
                   </div>
                   <div class="col">
                     <br>
                     <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
       
-                    <form ref="razorpayForm1">
-                      <!-- Content inside the first form, if needed -->
-                    </form>
+                    <!-- <form ref="razorpayForm1">
+                      
+                    </form> -->
+                    <basic_in></basic_in>
                   </div>
                 </div>
+                
                 <ul v-if="hide_info_basic_in == true" style="color:gray; font-size: 15px; text-align: left;">
                   <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
                   <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
@@ -60,7 +63,7 @@
                 <hr>
                 
                 <div class="row">
-                  <div class="col">
+                  <div class="col" style="text-align: left;">
                    <h3>Advanced Plan</h3>
                    <h4 style="color: gray;">₹41,999</h4>
                    <el-link @click="hide_info_adv_in = true, more_info_adv_in = false" v-if="more_info_adv_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
@@ -71,10 +74,10 @@
                     <br>
                     <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
       
-                    <form ref="razorpayForm2">
-                      <!-- Content inside the second form, if needed -->
-                    </form>
-                    
+                    <!-- <form ref="razorpayForm2">
+                   
+                    </form> -->
+                    <advanced_in></advanced_in>
                  
                   </div>
                 </div>
@@ -98,7 +101,7 @@
                 </ul>
                 <hr>
                 <div class="row">
-                  <div class="col">
+                  <div class="col" style="text-align: left;">
                    <h3>Advanced Plus Plan</h3>
                    <h4 style="color: gray;">₹47,999</h4>
                    <el-link @click="hide_info_advp_in = true, more_info_advp_in = false" v-if="more_info_advp_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
@@ -109,9 +112,10 @@
                     <br>
                     <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
       
-                    <form ref="razorpayForm3">
+                    <!-- <form ref="razorpayForm3">
                      
-                    </form>
+                    </form> -->
+                    <advancedplus_in></advancedplus_in>
                   </div>
                 </div>
               
@@ -147,7 +151,7 @@
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="container">
                 <div class="row">
-                  <div class="col">
+                  <div class="col" style="text-align: left;">
                    <h3>Basic Plan</h3>
                    <h4 style="color: gray;">$549</h4>
                    <el-link @click="hide_info_basic_us = true, more_info_basic_us = false" v-if="more_info_basic_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
@@ -156,10 +160,10 @@
                   <div class="col">
                     <br>
                     <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-                    <form ref="razorpayForm4">
+                    <!-- <form ref="razorpayForm4">
                      
-                    </form>
-                 
+                    </form> -->
+                  <basic_us></basic_us>
                   </div>
                 </div>
                 <ul v-if="hide_info_basic_us == true" style="color:gray; font-size: 15px; text-align: left;">
@@ -179,7 +183,7 @@
                 </ul>
                 <hr>
                 <div class="row">
-                  <div class="col">
+                  <div class="col" style="text-align: left;">
                    <h3>Advanced Plan</h3>
                    <h4 style="color: gray;">$599</h4>
                    <el-link @click="hide_info_adv_us = true, more_info_adv_us = false" v-if="more_info_adv_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
@@ -189,9 +193,10 @@
                     <br>
                     <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
       
-                    <form ref="razorpayForm5">
+                    <!-- <form ref="razorpayForm5">
                      
-                    </form>
+                    </form> -->
+                    <advanced_us></advanced_us>
                   </div>
                 </div>
                 <ul v-if="hide_info_adv_us == true" style="color:gray; font-size: 15px; text-align: left;">
@@ -214,7 +219,7 @@
                 </ul>
                 <hr>
                 <div class="row">
-                  <div class="col">
+                  <div class="col" style="text-align: left;">
                    <h3>Advanced Plus Plan</h3>
                    <h4 style="color: gray;">$699</h4>
                    <el-link  @click="hide_info_advp_us = true, more_info_advp_us = false" v-if="more_info_advp_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
@@ -224,9 +229,10 @@
                   <div class="col">
                     <br>
                     <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-                    <form ref="razorpayForm6">
+                    <!-- <form ref="razorpayForm6">
                      
-                    </form>
+                    </form> -->
+                    <advancedplus_us></advancedplus_us>
                   </div>
                 </div>
                 <ul v-if="hide_info_advp_us == true" style="color:gray; font-size: 15px; text-align: left;">
@@ -268,11 +274,23 @@
 </template>
 <script>
 import { Descriptions, DescriptionsItem } from 'element-ui'
+import basic_in from '/src/components/basic_in.vue'
+import basic_us from '/src/components/basic_us.vue'
+import advanced_in from '/src/components/advanced_in.vue'
+import advanced_us from '/src/components/advanced_us.vue'
+import advancedplus_in from '/src/components/advancedplus_in.vue'
+import advancedplus_us from '/src/components/advancedplus_us.vue'
 
 export default {
   components: {
     [Descriptions.name]: Descriptions,
-    [DescriptionsItem.name]: DescriptionsItem
+    [DescriptionsItem.name]: DescriptionsItem,
+    basic_in,
+    basic_us,
+    advanced_in,
+    advanced_us,
+    advancedplus_in,
+    advancedplus_us
   },
 
   data() {
