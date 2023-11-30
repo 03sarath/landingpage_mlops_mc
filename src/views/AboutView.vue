@@ -311,16 +311,7 @@ export default {
       hide_info_adv_us:false,
 
       more_info_advp_us:true,
-      hide_info_advp_us:false,
-      plans: [
-        "pl_N5pPqGfOtbpTD2",
-        // "pl_N5qKXfjNdM7bxW",
-        // "pl_N5qMUf1JdSwAgG",
-        // "pl_N5qRTbe0RnQ0hf",
-        // "pl_N5qhPstCoAZaZ9",
-        // "pl_N5rEU2qA0VnEA9",
-        // Add more plan IDs as needed
-      ],
+      hide_info_advp_us:false
 
     }
   },
@@ -334,18 +325,10 @@ export default {
   },
 
   mounted() {
-    // Loop through each button ID and create a script for each
-    this.plans.forEach((planId, index) => {
-      const formElement = this.$refs[`razorpayForm${index + 1}`];
-
-      const script = document.createElement("script");
-      script.src = "https://checkout.razorpay.com/v1/payment-button.js";
-      script.async = true;
-      script.dataset.payment_button_id = planId;
-
-      // Append the script to the form element
-      formElement.appendChild(script);
-    });
+    // Include the Facebook Pixel script in the mounted lifecycle hook
+    const script = document.createElement('script');
+    script.text = `fbq('trackCustom', 'lead');`;
+    document.head.appendChild(script);
   },
 
 }

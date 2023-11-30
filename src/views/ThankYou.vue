@@ -23,6 +23,8 @@
     </div>
   </div>
 
+  
+
 </template>
 
 <script>
@@ -33,7 +35,14 @@ export default {
       phone: '+918778033930',
       website: 'http://www.psitrontech.com'
     };
-  }
+  },
+
+  mounted() {
+    // Include the Facebook Pixel script in the mounted lifecycle hook
+    const script = document.createElement('script');
+    script.text = `fbq('track', 'Purchase', { currency: "INR", value: 39999 });`;
+    document.head.appendChild(script);
+  },
 };
 </script>
 
