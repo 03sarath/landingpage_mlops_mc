@@ -5,7 +5,8 @@
   <el-dialog
   title="Special Offers"
   :visible.sync="centerDialogVisible"
-  width="90%"
+  width="50%"
+  v-if="!isMobile()"
   center>
   <ValidationObserver ref="formRegUser">
   <form @submit.prevent="">
@@ -58,11 +59,68 @@
   </span>
 </el-dialog>
 
+<el-dialog
+title="Special Offers"
+:visible.sync="centerDialogVisible"
+width="90%"
+v-else
+center>
+<ValidationObserver ref="formRegUser">
+<form @submit.prevent="">
+
+  <!-- First Name Validation -->
+  <ValidationProvider  name="First Name" rules="required" v-slot="{ errors }">
+    <label label="First Name:" required> <strong>First Name</strong>
+      <el-input v-model="firstname" placeholder="Enter Your First Name" type="text"></el-input>
+    </label>
+    <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+  </ValidationProvider>
+
+  <!-- Last Name Validation -->
+  <ValidationProvider name="Last Name" rules="required" v-slot="{ errors }">
+    <label label="Last Name:" required><strong>Last Name</strong>
+      <el-input v-model="lastname" placeholder="Enter Your Last Name" type="text"></el-input>
+    </label>
+    <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+  </ValidationProvider>
+
+  <!-- E-mail Validation -->
+  <ValidationProvider name="E-mail" rules="required|email" v-slot="{ errors }">
+    <label label="E-MAIL:" required><strong>Email</strong>
+      <br /><el-input v-model="email" placeholder="Enter Your Email" type="email"></el-input>
+    </label>
+    <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+  </ValidationProvider>
+
+  <!-- Phone Number Validation -->
+  <ValidationProvider name="Phone Number" rules="required" v-slot="{ errors }">
+    <label label="Phone Number:" required><strong>Phone Number</strong>
+      <!-- <p>{{ results }}</p> -->
+      <VuePhoneNumberInput
+        v-model="phoneNumber"
+        @update="onUpdate"
+        class="mb-2"
+        :default-country-code="defaultCountry"
+        :no-validator-state="true"
+      />
+    </label>
+    <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+  </ValidationProvider>
+</form>
+</ValidationObserver>
+<br>
+<h4 v-if="errorinfo_status == true" style="color: red;text-align: center" >{{errorinfo}}</h4>
+
+<span style="text-align: center;" slot="footer" class="dialog-footer">
+  <el-button @click="signUpUser()" style="font-size:25px;" class="dynamic-button">Next</el-button>
+</span>
+</el-dialog>
 
 <el-dialog
 title="Download Curriculum"
 :visible.sync="centerDialogVisibleDownload"
-width="90%"
+width="50%"
+v-if="!isMobile()"
 center>
 <ValidationObserver ref="formRegUser">
 <form @submit.prevent="">
@@ -115,6 +173,63 @@ center>
 </span>
 </el-dialog>
 
+<el-dialog
+title="Download Curriculum"
+:visible.sync="centerDialogVisibleDownload"
+width="90%"
+v-else
+center>
+<ValidationObserver ref="formRegUser">
+<form @submit.prevent="">
+
+<!-- First Name Validation -->
+<ValidationProvider  name="First Name" rules="required" v-slot="{ errors }">
+  <label label="First Name:" required> <strong>First Name</strong>
+    <el-input v-model="firstname" placeholder="Enter Your First Name" type="text"></el-input>
+  </label>
+  <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+</ValidationProvider>
+
+<!-- Last Name Validation -->
+<ValidationProvider name="Last Name" rules="required" v-slot="{ errors }">
+  <label label="Last Name:" required><strong>Last Name</strong>
+    <el-input v-model="lastname" placeholder="Enter Your Last Name" type="text"></el-input>
+  </label>
+  <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+</ValidationProvider>
+
+<!-- E-mail Validation -->
+<ValidationProvider name="E-mail" rules="required|email" v-slot="{ errors }">
+  <label label="E-MAIL:" required><strong>Email</strong>
+    <br /><el-input v-model="email" placeholder="Enter Your Email" type="email"></el-input>
+  </label>
+  <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+</ValidationProvider>
+
+<!-- Phone Number Validation -->
+<ValidationProvider name="Phone Number" rules="required" v-slot="{ errors }">
+  <label label="Phone Number:" required><strong>Phone Number</strong>
+    <!-- <p>{{ results }}</p> -->
+    <VuePhoneNumberInput
+      v-model="phoneNumber"
+      @update="onUpdate"
+      class="mb-2"
+      :default-country-code="defaultCountry"
+      :no-validator-state="true"
+    />
+  </label>
+  <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+</ValidationProvider>
+</form>
+</ValidationObserver>
+<br>
+<h4 v-if="errorinfo_status == true" style="color: red;text-align: center" >{{errorinfo}}</h4>
+
+<span style="text-align: center;" slot="footer" class="dialog-footer">
+<el-button @click="download_curriculum()" style="font-size:25px;" class="dynamic-button">Download</el-button>
+</span>
+</el-dialog>
+
 
 <div class="common-layout">
   <el-header style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
@@ -138,7 +253,7 @@ center>
  
  <el-row style="background-color: #c500fc23; border-radius: 10px; padding: 10px;">
    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="right-align">
-     <el-image key="" src="https://mcusercontent.com/a06b94b6481b306e000825bd4/images/87eacec1-ada1-8610-7ef6-8552bed80bfd.png" class="drop-shadow" lazy /> &nbsp;&nbsp;&nbsp;
+     <el-image key="" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Course/mlops_course.png" class="drop-shadow" lazy /> &nbsp;&nbsp;&nbsp;
    </el-col> 
    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="left-align">
      <div class="content-wrapper">
@@ -1056,6 +1171,26 @@ export default {
     }
   },
   methods:{
+    isMobile: function() {
+  var check = false;
+  (function(a) {
+    if (
+      /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(
+        a
+      ) ||
+      /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw-(n|u)|c55\/|capi|ccwa|cdm-|cell|chtm|cldc|cmd-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc-s|devi|dica|dmob|do(c|p)o|ds(12|-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(-|_)|g1 u|g560|gene|gf-5|g-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd-(m|p|t)|hei-|hi(pt|ta)|hp( i|ip)|hs-c|ht(c(-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i-(20|go|ma)|i230|iac( |\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|-[\w])|libw|lynx|m1-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|-([1-8]|c))|phil|pire|pl(ay|uc)|pn-2|po(ck|rt|se)|prox|psio|pt-g|qa-a|qc(07|12|21|32|60|-[\w]|i-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h-|oo|p-)|sdk\/|se(c(-|0|1)|47|mc|nd|ri)|sgh-|shar|sie(-|m)|sk-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h-|v-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl-|tdg-|tel(i|m)|tim-|t-mo|to(pl|sh)|ts(70|m-|m3|m5)|tx-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas-|your|zeto|zte-/i.test(
+        a.substr(0, 4)
+      )
+    )
+      check = true;
+  })(navigator.userAgent || navigator.vendor || window.opera);
+  return check;
+},
+
+
+
+
+
     onUpdate(payload) {
       this.results = payload
     },
