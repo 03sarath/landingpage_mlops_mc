@@ -281,7 +281,7 @@ center>
 
        <el-main >
         <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Curriculum</b></h1>
-        <p style="font-size: 15px; text-align: center; padding-bottom: 5px;"><b>From 6 Jan 2023 | Every Saturday and Sunday</b></p>
+        <p style="font-size: 15px; text-align: center; padding-bottom: 5px;"><b>From 6 Jan 2024 | Every Saturday and Sunday</b></p>
         <p style="font-size: 15px; text-align: center; color:#29063e; padding-bottom: 5px;"><b>7:00 PM to 11:00 PM IST | 9:30 AM to 1:30 PM EST | 3:30 PM to 7:30 PM CST</b></p>
     
 
@@ -331,8 +331,8 @@ center>
                      </ul>
                      <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Architectures</li>
                      <ul style="color: black; font-size: 17px; text-align: left;">
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Architectures - Open Source tools</li>
                        <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Architectures - Open Source tools - Kubeflow, Apache Airflow, MLFlow, Metaflow, Kedro, ZenML, MLRun, CML</li>
+                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Architectures - Cloud Native tools - AWS, GCP and Azure</li>
                        <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Comparison among cloud-native tools</li>
                        <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;The cost-benefit approach of each architecture and MLOps maturity</li>
                      </ul>
@@ -345,7 +345,7 @@ center>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     <p><b style="color:rgb(255, 123, 0)">Module 3</b>- Introduction to Git <i style="color:gray">Hands-on</i></p>
+                     <p><b style="color:rgb(255, 123, 0)">Module 3</b>- Introduction to Git<i style="color:gray">Hands-on</i></p>
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -438,9 +438,13 @@ center>
              <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubernetes Resources
                <ul style="color: black; font-size: 17px; text-align: left;">
                  <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Pod</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Deployment</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Replica</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;ConfigMap</li>
                  <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Service</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Secret</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Ingress</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Deployment</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;StatefulSet</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;DaemonSet</li>
                  <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Volumes (PVC)</li>
                  
                </ul>
@@ -461,6 +465,7 @@ center>
           </h2>
           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
            <ul style="color: black; font-size: 17px; text-align: left;">
+            <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitoring</li>
              <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Liveness and Readiness Probes</li>
              <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Labels and Selectors</li>
              <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploying an ML Model using Docker and Amazon EKS</li>
@@ -493,7 +498,7 @@ center>
                <ul style="color: black; font-size: 17px; text-align: left;">
                  <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;MLFlow</li>
                  <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy MLFlow stack on the cloud</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Build, train, and deploy an ML model using MLFlow</li>
+                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Build, train, and deploy an ML model using MLFlow Experiments and MLFlow model registry</li>
                  <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;DVC</li>
                  <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Git Large File Storage (LFS)</li>
                  
@@ -512,8 +517,7 @@ center>
           </h2>
           <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
            <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Introduction to Feature Stores, SageMaker Feature Store, Vertex AI</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feature Store, Databricks, Tecton, Feast, Hopsworks etc.</li>
+             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Introduction to Feature Stores, SageMaker Feature Store, Vertex AI Feature Store, Databricks, Tecton, Feast, Hopsworks etc.</li>
              <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feast open-source feature store</li>
              <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feature Store: Online Vs Offline</li>
              <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploy Feast Online/Offline feature store</li>
@@ -814,11 +818,13 @@ center>
  
    <el-main style="background: #f2f7f9;">
          <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Why Cloud ?</h1>
-         <el-image key="url2" src="https://mcusercontent.com/a06b94b6481b306e000825bd4/images/12d0de4c-3120-c321-0c86-e72e9108451a.jpeg" class="drop-shadow" lazy />
+         <br>
+         <el-image key="url2" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Course/cloudshare.jpeg" class="drop-shadow" lazy />
        </el-main>
  
        <el-main style="background:linear-gradient(to right, #5800dc, #860aeb, #7e01ab);">
         <h1 class="title_4" style="color:rgb(255, 230, 0);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Skills to Master</h1>
+        <br>
    <div class="container">
     <div class="row">
       <div class="col">
@@ -908,6 +914,7 @@ center>
              </el-main> 
  
              <el-mnain style="background: #f2f7f9;">
+              <br>
                <p style="font-size: 28px;">Glimpse of our happy participants</p>
                <h1 class="title_4" style="color:rgb(38, 40, 131) ;  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Testimonials</b></h1>
                <div class="container">
@@ -917,32 +924,33 @@ center>
                       <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/atema8uex2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <br>
-                     <p><strong>Nisheeth Jaiswal</strong>- Data Scientist from UK</p>
+                     <h4><strong>Nisheeth Jaiswal</strong>- Data Scientist from UK</h4>
                    
                      <div class="o-video">
                        <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/vdwU4urzdpc?si=Knbbb93xJPrV5J_L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                      </div>
                      <br>
-                      <p><strong>Balasubramanian</strong>- what <b>ISRO</b> engineer has to say!</p>
+                      <h4><strong>Balasubramanian</strong>- what <b>ISRO</b> engineer has to say!</h4>
                    
                       <div class="o-video">
                        <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/bXKGKUHMlaQ?si=9E33HOx4qpWXPjLK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                      </div>
                      <br>
-                      <p><strong>Rahul Patil </strong>- Congratulations on your new job 👏  well deserved!</p> 
+                      <h4><strong>Rahul Patil </strong>- Congratulations on your new job 👏  well deserved!</h4> 
                     
                      <div class="o-video">
                       <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/8LJld1V9el8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <br>
-                     <p><strong>Dhirendra Kumar Singh</strong>- Participants - MLOps</p>
+                     <h4><strong>Dhirendra Kumar Singh</strong>- Participants - MLOps</h4>
                     
                     
                      <div class="o-video">
                       <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/_UC_s98YquM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                     <br>
-                     <p><strong>Fathima Hafeez</strong>- Application support engineer for Google</p>
+                     <h4><strong>Fathima Hafeez</strong>- Application support engineer for Google</h4>
+                     <br>
                     </div>
                     </div>
                     </div>
