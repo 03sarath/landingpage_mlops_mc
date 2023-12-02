@@ -1441,7 +1441,7 @@ export default {
           //console.log(dataAWS)
           if (dataAWS.data.body == 'Put item successful') {
             loadingInstance.close()
-            this.$router.push('about')
+            this.$router.push('registration')
           } else if (dataAWS.data.body == 'Error updating DynamoDB item') {
             loadingInstance.close()
             this.errorinfo_status = true
