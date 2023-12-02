@@ -268,8 +268,7 @@
  
     </el-main>
 
-
-
+    <WhatsappAPI></WhatsappAPI>
   </div>
 </template>
 <script>
@@ -280,6 +279,8 @@ import advanced_in from '/src/components/advanced_in.vue'
 import advanced_us from '/src/components/advanced_us.vue'
 import advancedplus_in from '/src/components/advancedplus_in.vue'
 import advancedplus_us from '/src/components/advancedplus_us.vue'
+import WhatsappAPI from '@/components/WhatsappAPI.vue'
+
 
 export default {
   components: {
@@ -290,7 +291,8 @@ export default {
     advanced_in,
     advanced_us,
     advancedplus_in,
-    advancedplus_us
+    advancedplus_us,
+    WhatsappAPI
   },
 
   data() {
