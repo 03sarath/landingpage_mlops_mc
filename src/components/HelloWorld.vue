@@ -230,9 +230,169 @@ center>
 </span>
 </el-dialog>
 
+<el-dialog
+title="Still Have Questions ?"
+:visible.sync="DialogVisibleContactUs"
+width="50%"
+v-if="!isMobile()"
+center>
+<div v-if="display_message_status == false">
+  <ValidationObserver ref="formRegUser">
+    <form @submit.prevent="">
+    
+      <!-- First Name Validation -->
+      <ValidationProvider  name="First Name" rules="required" v-slot="{ errors }">
+        <label label="First Name:" required> <strong>First Name</strong>
+          <el-input v-model="firstname" placeholder="Enter Your First Name" type="text"></el-input>
+        </label>
+        <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+      </ValidationProvider>
+    
+      <!-- Last Name Validation -->
+      <ValidationProvider name="Last Name" rules="required" v-slot="{ errors }">
+        <label label="Last Name:" required><strong>Last Name</strong>
+          <el-input v-model="lastname" placeholder="Enter Your Last Name" type="text"></el-input>
+        </label>
+        <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+      </ValidationProvider>
+    
+      <!-- E-mail Validation -->
+      <ValidationProvider name="E-mail" rules="required|email" v-slot="{ errors }">
+        <label label="E-MAIL:" required><strong>Email</strong>
+          <br /><el-input v-model="email" placeholder="Enter Your Email" type="email"></el-input>
+        </label>
+        <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+      </ValidationProvider>
+    
+      <!-- Phone Number Validation -->
+      <ValidationProvider name="Phone Number" rules="required" v-slot="{ errors }">
+        <label label="Phone Number:" required><strong>Phone Number</strong>
+          <!-- <p>{{ results }}</p> -->
+          <VuePhoneNumberInput
+            v-model="phoneNumber"
+            @update="onUpdate"
+            class="mb-2"
+            :default-country-code="defaultCountry"
+            :no-validator-state="true"
+          />
+        </label>
+        <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+      </ValidationProvider>
+    
+      <ValidationProvider name="Message" rules="required" v-slot="{ errors }">
+        <label label="Message:" required><strong>Message</strong>
+          <br /><el-input
+          type="textarea"
+          placeholder="Your message"
+          :autosize="{ minRows: 2, maxRows: 4}"
+          v-model="message">
+        </el-input>
+        </label>
+        <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+      </ValidationProvider>
+    </form>
+    </ValidationObserver>
+    <br>
+    <h4 v-if="errorinfo_status == true" style="color: red;text-align: center" >{{errorinfo}}</h4>
+    
+    <span style="text-align: center;" slot="footer" class="dialog-footer">
+      <el-button @click="constct_us()" style="font-size:25px;" class="dynamic-button-sndmsg">Send Message</el-button>
+    </span>
+</div>
+<div v-else>
+  <div style="text-align: center;">
+    <i style="font-size: 50px; color:green" class="el-icon-check"></i>
+    <br>
+    <br>
+    <h4>{{message_status}}</h4>
+  </div>
+
+</div>
+</el-dialog>
+
+<el-dialog
+title="Still Have Questions ?"
+:visible.sync="DialogVisibleContactUs"
+width="90%"
+v-else
+center>
+<div v-if="display_message_status == false">
+  <ValidationObserver ref="formRegUser">
+    <form @submit.prevent="">
+    
+    <!-- First Name Validation -->
+    <ValidationProvider  name="First Name" rules="required" v-slot="{ errors }">
+      <label label="First Name:" required> <strong>First Name</strong>
+        <el-input v-model="firstname" placeholder="Enter Your First Name" type="text"></el-input>
+      </label>
+      <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+    </ValidationProvider>
+    
+    <!-- Last Name Validation -->
+    <ValidationProvider name="Last Name" rules="required" v-slot="{ errors }">
+      <label label="Last Name:" required><strong>Last Name</strong>
+        <el-input v-model="lastname" placeholder="Enter Your Last Name" type="text"></el-input>
+      </label>
+      <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+    </ValidationProvider>
+    
+    <!-- E-mail Validation -->
+    <ValidationProvider name="E-mail" rules="required|email" v-slot="{ errors }">
+      <label label="E-MAIL:" required><strong>Email</strong>
+        <br /><el-input v-model="email" placeholder="Enter Your Email" type="email"></el-input>
+      </label>
+      <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+    </ValidationProvider>
+    
+    <!-- Phone Number Validation -->
+    <ValidationProvider name="Phone Number" rules="required" v-slot="{ errors }">
+      <label label="Phone Number:" required><strong>Phone Number</strong>
+        <!-- <p>{{ results }}</p> -->
+        <VuePhoneNumberInput
+          v-model="phoneNumber"
+          @update="onUpdate"
+          class="mb-2"
+          :default-country-code="defaultCountry"
+          :no-validator-state="true"
+        />
+      </label>
+      <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+    </ValidationProvider>
+    
+    <ValidationProvider name="Message" rules="required" v-slot="{ errors }">
+      <label label="Message:" required><strong>Message</strong>
+        <br /><el-input
+        type="textarea"
+        placeholder="Your message"
+        :autosize="{ minRows: 2, maxRows: 4}"
+        v-model="message">
+      </el-input>
+      </label>
+      <div style="color:red" class="error-message" v-if="errors[0]">{{ errors[0] }}</div>
+    </ValidationProvider>
+    </form>
+    </ValidationObserver>
+    <br>
+    <h4 v-if="errorinfo_status == true" style="color: red;text-align: center" >{{errorinfo}}</h4>
+    
+    <span style="text-align: center;" slot="footer" class="dialog-footer">
+    <el-button @click="constct_us()" style="font-size:25px;" class="dynamic-button-sndmsg">Send Message</el-button>
+    </span>
+</div>
+<div v-else>
+  <div style="text-align: center;">
+    <i style="font-size: 50px; color:green" class="el-icon-check"></i>
+    <br>
+    <br>
+    <h4>{{message_status}}</h4>
+  </div>
+
+</div>
+
+</el-dialog>
 
 <div class="common-layout">
-  <el-header style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
+  <el-header fixed style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
     <el-image style="width: 50px; height: 50px; margin-right: 10px;" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/psitron_logo_wit_small.png" fit="fill" />
     <nav style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
       <!-- <router-link to="https://psitrontech.com/" style="margin: 5px;">Curriculum</router-link> -->
@@ -240,7 +400,6 @@ center>
       <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button>
     </nav>
   </el-header>
-  
  
        <el-main style="background:linear-gradient(to right, #170b47, #412068, #170b47);">
          <h3 class="title_1" style="padding-bottom: 5px;padding-left: 20px; padding-right: 20px;padding-top: 5px; background-color: rgba(192, 192, 192, 0.26); color: rgb(251, 105, 52);"><b>Learn to Design production <u>ML Pipelines</u></b></h3>
@@ -279,7 +438,7 @@ center>
     
        </el-main>
 
-       <el-main >
+       <el-main style="background-color: #f2f7f9;">
         <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Curriculum</b></h1>
         <p style="font-size: 15px; text-align: center; padding-bottom: 5px;"><b>From 6 Jan 2024 | Every Saturday and Sunday</b></p>
         <p style="font-size: 15px; text-align: center; color:#29063e; padding-bottom: 5px;"><b>7:00 PM to 11:00 PM IST | 9:30 AM to 1:30 PM EST | 3:30 PM to 7:30 PM CST</b></p>
@@ -345,7 +504,7 @@ center>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     <p><b style="color:rgb(255, 123, 0)">Module 3</b>- Introduction to Git<i style="color:gray">Hands-on</i></p>
+                     <p><b style="color:rgb(255, 123, 0)">Module 3</b>- Introduction to Git<i style="color:gray"> Hands-on</i></p>
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -694,6 +853,36 @@ center>
     <p style="font-size: 28px;">Tools Covered</p>
     <el-image key="url1" src="https://psitron.s3.ap-southeast-1.amazonaws.com/landingpages/tools.png" class="drop-shadow" lazy />
   </el-main>
+
+
+          <el-mnain style="background: #1986b4;">
+            <br>
+             <h1 class="title_4" style="color:rgb(38, 40, 131) ;  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Watch Demo</b></h1>
+             <div class="container">
+              <div class="row">
+                <div class="col">
+                  <div class="o-video">
+                    <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/Duux2bjmXwk?si=2GN8ViioWBhAGHG6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                  <br>
+                  </div>
+                  </div>
+                  </div>
+                </el-mnain>
+           
+  <el-main>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 style="text-align: left;">Have a question?</h1>
+          <p style="text-align: left;"> Send your queries to the program trainer</p>
+          <el-button @click="DialogVisibleContactUs = true" style=" font-size: 25px;" icon="el-icon-phone" type="primary" round><b>Contact Us</b></el-button>
+          <br>  
+          <br>  
+        </div>
+      </div>      
+    </div>        
+  </el-main> 
  
        <el-main style="background:linear-gradient(to right, #46006f, #8b23b4, #6f19d9);">
          
@@ -1118,7 +1307,15 @@ center>
       
      </el-container>
    </div>
-
+   
+   <div>
+    <!-- Your other components go here -->
+    
+    <!-- Floating WhatsApp button with icon -->
+    <button class="floating-button" @click="redirectToWhatsApp">
+      <font-awesome-icon :icon="['fab', 'whatsapp']" style="font-size: 40px;" />
+    </button>
+  </div>
 
 </div>
 
@@ -1135,6 +1332,11 @@ import { required, email } from 'vee-validate/dist/rules';
 import { extend } from 'vee-validate';
 import post_AWS_API from '/src/api_aws.js'
 import { Loading } from 'element-ui'
+
+//import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+
+
+
 
 // Register the required and email rules
 extend('required', required);
@@ -1165,6 +1367,10 @@ export default {
       email:'',
       centerDialogVisible:false,
       centerDialogVisibleDownload:false,
+      DialogVisibleContactUs:false,
+      message:'',
+      message_status:'Message Sent!',
+      display_message_status:false,
       who:[
       'Data Scientists',
 'Data engineers & Data Analysts',
@@ -1179,6 +1385,10 @@ export default {
     }
   },
   methods:{
+    redirectToWhatsApp() {
+      const whatsappURL = 'https://api.whatsapp.com/send?phone=%2B918940876397&text=Hello%2C%20I%20have%20a%20query%20regarding%20MLOps%20Specialization%20Course.';
+      window.open(whatsappURL, '_blank');
+    },
     isMobile: function() {
   var check = false;
   (function(a) {
@@ -1250,13 +1460,10 @@ export default {
       })
     },
     download_curriculum(){
-      // window.location.href = 'https://bit.ly/mlops-curriculum-nov23';
-
       this.$refs.formRegUser.validate().then(success => {
         if (!success) {
           return
         }
-      //console.log("Inside", this.firstname,this.lastname,this.email,this.results.formattedNumber)
       var get_date = new Date();
       var ISOtime = get_date.toISOString();
         
@@ -1281,6 +1488,61 @@ export default {
             //window.location.href = 'https://bit.ly/mlops-curriculum-nov23';
             window.open('https://bit.ly/mlops-curriculum-nov23', '_blank');
             this.centerDialogVisibleDownload = false
+          } else if (dataAWS.data.body == 'Error updating DynamoDB item') {
+            loadingInstance.close()
+            this.errorinfo_status = true
+            this.errorinfo = 'Whoops,something went wrong.Please try again!'
+          } else {
+            loadingInstance.close()
+            this.errorinfo_status = true
+            this.errorinfo = 'Whoops,something went wrong.Please try again!'
+          }
+        })
+        .catch(e => {
+          this.errors.push(e)
+        })
+
+
+      })
+    },
+
+    constct_us(){
+      console.log("Contact us called")
+      this.$refs.formRegUser.validate().then(success => {
+        if (!success) {
+          return
+        }
+      var get_date = new Date();
+      var ISOtime = get_date.toISOString();
+        
+      var data= {
+        "item":{
+        "time_stamp":ISOtime,
+        "first_name":this.firstname,
+        "last_name":this.lastname,
+        "email":this.email,
+        "phone":this.results.formattedNumber,
+        "lead_status":"enquiry",
+        "message_body":this.message
+        },
+        "mode":"put_item"
+      
+      };
+      let loadingInstance = Loading.service({ fullscreen: true })
+        post_AWS_API(data)
+        .then(dataAWS => {
+          //console.log(dataAWS)
+          if (dataAWS.data.body == 'Put item successful') {
+            loadingInstance.close()
+            this.display_message_status=true;
+            this.firstname='';
+            this.lastname='';
+            this.email='';
+            this.phoneNumber='';
+            this.message='';
+            setTimeout(() => this.display_message_status = false, 3000);
+            
+            this.DialogVisibleContactUs = true
           } else if (dataAWS.data.body == 'Error updating DynamoDB item') {
             loadingInstance.close()
             this.errorinfo_status = true
@@ -1793,6 +2055,37 @@ a {
   }
 }
 
+
+.dynamic-button-sndmsg {
+  margin: 5px;
+  background: #d01c68;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .dynamic-button-sndmsg {
+    font-size: 16px;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .dynamic-button-sndmsg {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .dynamic-button-sndmsg {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
+
 .topic-item {
   font-size: 20px;
 }
@@ -1814,4 +2107,31 @@ a {
     font-size: 28px;
   }
 }
+</style>
+<style scoped>
+/* Your other styles go here */
+
+/* Floating button styles */
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px; /* Adjust the width and height to make it circular */
+  height: 60px;
+  background-color: #25D366; /* WhatsApp green color */
+  color: #FFFFFF; /* White text */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.floating-button:hover {
+  background-color: #128C7E; /* WhatsApp dark green color on hover */
+}
+
+
 </style>
