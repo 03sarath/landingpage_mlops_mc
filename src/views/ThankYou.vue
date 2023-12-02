@@ -1,34 +1,44 @@
 <!-- ThankYou.vue -->
 <template>
-  <div class="common-layout">
-    <el-header style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
-      <el-image style="width: 50px; height: 50px; margin-right: 10px;" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/psitron_logo_wit_small.png" fit="fill" />
-      <nav style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
-      </nav>
-    </el-header>
-    <br>
-    <div class="container">
-      
-      <h1>Thank You for Registering!</h1>
-      <p>Your registration for the <strong>MLOps Specialization Course</strong> has been confirmed.</p>
-      <p>You will receive further information in upcoming dates.</p>
-  
-      <div class="contact-info">
-        <p>For more information, please contact:</p>
-        <p>Name: Sarath Kumar</p>
-        <p>Email: <a :href="'mailto:' + email">sarath@psitrontech.com</a></p>
-        <p>Phone: <a :href="'tel:' + phone">+91 8778033930</a></p>
-        <p>Website: <a :href="website" target="_blank">www.psitrontech.com</a></p>
+  <div>
+    <div class="common-layout">
+      <el-header style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
+        <el-image style="width: 50px; height: 50px; margin-right: 10px;" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/psitron_logo_wit_small.png" fit="fill" />
+        <nav style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
+        </nav>
+      </el-header>
+      <br>
+      <div class="container">
+        
+        <h1>Thank You for Registering!</h1>
+        <p>Your registration for the <strong>MLOps Specialization Course</strong> has been confirmed.</p>
+        <p>You will receive further information in upcoming dates.</p>
+    
+        <div class="contact-info">
+          <p>For more information, please contact:</p>
+          <p>Name: Sarath Kumar</p>
+          <p>Email: <a :href="'mailto:' + email">sarath@psitrontech.com</a></p>
+          <p>Phone: <a :href="'tel:' + phone">+91 8778033930</a></p>
+          <p>Website: <a :href="website" target="_blank">www.psitrontech.com</a></p>
+        </div>
       </div>
+     
     </div>
+    <WhatsappAPI></WhatsappAPI>
   </div>
+
 
   
 
 </template>
 
 <script>
+import WhatsappAPI from '@/components/WhatsappAPI.vue'
+
 export default {
+  components:{
+    WhatsappAPI
+  },
   data() {
     return {
       email: 'sarath@psitrontech.com',

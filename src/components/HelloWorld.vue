@@ -1308,14 +1308,8 @@ center>
      </el-container>
    </div>
    
-   <div>
-    <!-- Your other components go here -->
-    
-    <!-- Floating WhatsApp button with icon -->
-    <button class="floating-button" @click="redirectToWhatsApp">
-      <font-awesome-icon :icon="['fab', 'whatsapp']" style="font-size: 40px;" />
-    </button>
-  </div>
+
+  <WhatsappAPI></WhatsappAPI>
 
 </div>
 
@@ -1332,6 +1326,8 @@ import { required, email } from 'vee-validate/dist/rules';
 import { extend } from 'vee-validate';
 import post_AWS_API from '/src/api_aws.js'
 import { Loading } from 'element-ui'
+import WhatsappAPI from '@/components/WhatsappAPI.vue'
+
 
 //import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
@@ -1353,7 +1349,8 @@ export default {
   components: {
     ValidationProvider,
     ValidationObserver,
-    VuePhoneNumberInput
+    VuePhoneNumberInput,
+    WhatsappAPI
   },
   data(){
     return{
@@ -2108,7 +2105,7 @@ a {
   }
 }
 </style>
-<style scoped>
+<style>
 /* Your other styles go here */
 
 /* Floating button styles */

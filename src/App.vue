@@ -5,6 +5,12 @@
       <router-link to="/about">About</router-link>
     </nav> -->
     <router-view/>
+
+    <!-- <div>
+      <button class="floating-button" @click="redirectToWhatsApp">
+        <font-awesome-icon :icon="['fab', 'whatsapp']" style="font-size: 40px;" />
+      </button>
+    </div> -->
   </div>
 </template>
 
