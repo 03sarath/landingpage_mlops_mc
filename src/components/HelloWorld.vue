@@ -1483,7 +1483,7 @@ export default {
           if (dataAWS.data.body == 'Put item successful') {
             loadingInstance.close()
             //window.location.href = 'https://bit.ly/mlops-curriculum-nov23';
-            window.open('https://bit.ly/mlops-curriculum-nov23', '_blank');
+            window.open('https://bit.ly/mlops-curriculum-jan24', '_blank');
             this.centerDialogVisibleDownload = false
           } else if (dataAWS.data.body == 'Error updating DynamoDB item') {
             loadingInstance.close()
