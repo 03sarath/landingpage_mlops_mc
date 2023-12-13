@@ -408,7 +408,7 @@ center>
         <br>
          <h3 class="title_1" style="padding-bottom: 5px;padding-left: 20px; padding-right: 20px;padding-top: 5px; background-color: rgba(192, 192, 192, 0.26); color: rgb(251, 105, 52);"><b>Learn to Design production <u>ML Pipelines</u></b></h3>
          <div class="content-wrapper">
-           <h1 class="title" style="margin-top:30px">MLOps Specialization Course Demo</h1>
+           <h1 class="title" style="margin-top:30px">MLOps Specialization Course</h1>
            <!-- <h3 class="subtitle">Learn to Design production ML Pipelines</h3> -->
          </div>
 
