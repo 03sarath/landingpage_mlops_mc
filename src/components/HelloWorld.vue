@@ -392,7 +392,9 @@ center>
 </el-dialog>
 
 <div class="common-layout">
-  <el-header fixed style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
+  <!-- <el-header fixed style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; "> -->
+    <el-header style="position: fixed; top: 0; width: 100%; background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; z-index: 1000;">
+
     <el-image style="width: 50px; height: 50px; margin-right: 10px;" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/psitron_logo_wit_small.png" fit="fill" />
     <nav style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
       <!-- <router-link to="https://psitrontech.com/" style="margin: 5px;">Curriculum</router-link> -->
@@ -402,9 +404,11 @@ center>
   </el-header>
  
        <el-main style="background:linear-gradient(to right, #170b47, #412068, #170b47);">
+        <br>
+        <br>
          <h3 class="title_1" style="padding-bottom: 5px;padding-left: 20px; padding-right: 20px;padding-top: 5px; background-color: rgba(192, 192, 192, 0.26); color: rgb(251, 105, 52);"><b>Learn to Design production <u>ML Pipelines</u></b></h3>
          <div class="content-wrapper">
-           <h1 class="title" style="margin-top:30px">MLOps Specialization Course</h1>
+           <h1 class="title" style="margin-top:30px">MLOps Specialization Course Demo</h1>
            <!-- <h3 class="subtitle">Learn to Design production ML Pipelines</h3> -->
          </div>
 
@@ -937,6 +941,19 @@ center>
         </div>
         </div>
        </el-main>
+       <el-main>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 style="text-align: left;">Have a question?</h1>
+              <p style="text-align: left;"> Send your queries to the program trainer</p>
+              <el-button @click="DialogVisibleContactUs = true" style=" font-size: 25px;" icon="el-icon-phone" type="primary" round><b>Contact Us</b></el-button>
+              <br>  
+              <br>  
+            </div>
+          </div>      
+        </div>        
+      </el-main> 
 
 
        <el-main style="background: #f2f7f9;">
