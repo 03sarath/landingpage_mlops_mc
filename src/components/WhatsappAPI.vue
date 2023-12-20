@@ -13,7 +13,7 @@
   export default {
 methods:{
     redirectToWhatsApp() {
-      const whatsappURL = 'https://api.whatsapp.com/send?phone=%2B918940876397&text=Hello%2C%20I%20have%20a%20query%20regarding%20MLOps%20Specialization%20Course.';
+      const whatsappURL = 'https://api.whatsapp.com/send?phone=%2B918778033930&text=Hello%2C%20I%20have%20a%20query%20regarding%20MLOps%20Specialization%20Course.';
       window.open(whatsappURL, '_blank');
     },
 }
