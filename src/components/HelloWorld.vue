@@ -682,7 +682,7 @@ center>
         </div>
         </div>
        </el-main>
-       <el-main>
+       <!-- <el-main>
         <div class="container">
           <div class="row">
             <div class="col">
@@ -694,7 +694,7 @@ center>
             </div>
           </div>      
         </div>        
-      </el-main> 
+      </el-main>  -->
 
 
        <el-main style="background: #f2f7f9;">
