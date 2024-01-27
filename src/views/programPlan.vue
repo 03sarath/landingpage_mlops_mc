@@ -30,7 +30,7 @@
                   <div class="col" style="text-align: left;">
                    <!-- <h3>Register</h3> -->
                    <br>
-                   <p style="color: rgb(0, 0, 0);"><strike>₹2,999</strike></p>
+                   <p style="color: rgb(0, 0, 0);"><strike>₹5,999</strike></p>
                    <h4 style="color: gray;">₹2,999</h4>
                    <el-tag size="small" effect="dark" type="danger">60% OFF</el-tag>
                    <br>
@@ -83,9 +83,10 @@
                   <div class="col" style="text-align: left;">
                    <!-- <h3>Register</h3> -->
                    <br>
-                   <p style="color: rgb(0, 0, 0);"><strike>$49</strike></p>
-                   <h4 style="color: gray;">$49</h4>
+                   <p style="color: rgb(0, 0, 0);"><strike>$79.9</strike></p>
+                   <h4 style="color: gray;">$49.9</h4>
                    <el-tag size="small" effect="dark" type="danger">60% OFF</el-tag>
+                   <br>
                    <el-link @click="hide_info_basic_us = true, more_info_basic_us = false" v-if="more_info_basic_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
                    <el-link @click="hide_info_basic_us = false, more_info_basic_us = true" v-if="hide_info_basic_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
                   </div>

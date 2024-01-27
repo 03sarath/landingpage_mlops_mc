@@ -414,7 +414,7 @@ center>
 
     
  
- <el-row style="background-color: #c500fc23; border-radius: 10px; padding: 10px;">
+ <el-row style="background-color: #b9b8b823; border-radius: 10px; padding: 10px;">
    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="right-align">
      <el-image key="" src="https://psitron.s3.ap-southeast-1.amazonaws.com/mlops_masterclass/mlops_mc_poster.jpg" class="drop-shadow" lazy /> &nbsp;&nbsp;&nbsp;
    </el-col> 
@@ -1224,7 +1224,7 @@ export default {
           if (dataAWS.data.body == 'Put item successful') {
             loadingInstance.close()
             //window.location.href = 'https://bit.ly/mlops-curriculum-nov23';
-            window.open('https://bit.ly/mlops-curriculum-jan24', '_blank');
+            window.open('https://bit.ly/mlops-masterclass-curriculum', '_blank');
             this.centerDialogVisibleDownload = false
           } else if (dataAWS.data.body == 'Error updating DynamoDB item') {
             loadingInstance.close()
