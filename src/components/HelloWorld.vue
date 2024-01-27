@@ -426,8 +426,8 @@ center>
        <ul class="topic-list">
       
          <li class="topic-item"><span class="tick-mark" style="color: #fdfa34;">&#10003;&nbsp;</span><b>10 Hours</b> of Live sessions from Industrial Experts</li>
-         <li class="topic-item"><span class="tick-mark" style="color: #fdfa34;">&#10003;&nbsp;</span><b>10+</b> Live Hands-on Labs</li>
-         <li class="topic-item"><span class="tick-mark" style="color: #fdfa34;">&#10003;&nbsp;</span><b>1+ Real-time</b> industrial projects</li>
+         <li class="topic-item"><span class="tick-mark" style="color: #fdfa34;">&#10003;&nbsp;</span><b>15+</b> Live Hands-on Labs</li>
+         <li class="topic-item"><span class="tick-mark" style="color: #fdfa34;">&#10003;&nbsp;</span><b>2 Real-time</b> industrial projects</li>
            <li class="topic-item"><span class="tick-mark" style="color: #fdfa34;">&#10003;&nbsp;</span>One-on-One Debugging with Industry Mentors</li>
        </ul>
      </div>
