@@ -406,7 +406,7 @@ center>
        <el-main style="background:linear-gradient(to right, #7b0281, rgb(86, 13, 94), #81027f);">
         <br>
         <br>
-         <h3 class="title_1" style="padding-bottom: 5px;padding-left: 20px; padding-right: 20px;padding-top: 5px; background-color: rgba(192, 192, 192, 0.26); color: rgb(241, 251, 52);"><b>Navigating the Landscape of <u>MLOps & LLMosp</u></b></h3>
+         <h3 class="title_1" style="padding-bottom: 5px;padding-left: 20px; padding-right: 20px;padding-top: 5px; background-color: rgba(192, 192, 192, 0.26); color: rgb(241, 251, 52);"><b>Navigating the Landscape of <u>MLOps & LLMOps</u></b></h3>
          <div class="content-wrapper">
            <h1 class="title" style="margin-top:30px">MLOps Masterclass</h1>
            <!-- <h3 class="subtitle">Learn to Design production ML Pipelines</h3> -->
@@ -444,7 +444,7 @@ center>
 
        <el-main style="background-color: #f2f7f9;">
         <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Curriculum</b></h1>
-        <p style="font-size: 15px; text-align: center; padding-bottom: 5px;"><b>From 24th February 2024 | Every Saturday and Sunday</b></p>
+        <p style="font-size: 15px; text-align: center; padding-bottom: 5px;"><b>From 24th to 25th February 2024 | Saturday and Sunday</b></p>
         <p style="font-size: 15px; text-align: center; color:#29063e; padding-bottom: 5px;"><b>10:00 AM to 2:30 PM IST</b></p>
     
 
