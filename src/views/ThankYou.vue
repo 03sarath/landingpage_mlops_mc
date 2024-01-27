@@ -2,7 +2,7 @@
 <template>
   <div>
     <div class="common-layout">
-      <el-header style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
+      <el-header style="background-color: #3d0548; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
         <el-image style="width: 50px; height: 50px; margin-right: 10px;" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/psitron_logo_wit_small.png" fit="fill" />
         <nav style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
         </nav>
@@ -11,7 +11,7 @@
       <div class="container">
         
         <h1>Thank You for Registering!</h1>
-        <p>Your registration for the <strong>MLOps Specialization Course</strong> has been confirmed.</p>
+        <p>Your registration for the <strong>MLOps Masterclass</strong> has been confirmed.</p>
         <p>You will receive further information in upcoming dates.</p>
     
         <div class="contact-info">

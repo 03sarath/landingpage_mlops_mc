@@ -21,7 +21,7 @@
       // Set the script source to the Razorpay payment button script
       script.src = "https://checkout.razorpay.com/v1/payment-button.js";
       script.async = true;
-      script.dataset.payment_button_id = "pl_N5qRTbe0RnQ0hf";
+      script.dataset.payment_button_id = "pl_NTVoaYqvGjEr33";
   
       // Append the script to the form element
       formElement.appendChild(script);

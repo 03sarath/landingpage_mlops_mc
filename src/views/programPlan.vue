@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-header style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
+    <el-header style="background-color: #3d0548; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; ">
       
       <nav style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
         <!-- <router-link to="https://psitrontech.com/" style="margin: 5px;">Curriculum</router-link> -->
@@ -14,8 +14,8 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <p style="font-size: 25px; text-align: left; padding-top: 5px;"><b>MLOps Specialization Course</b></p>
-            <p style="font-size: 15px; text-align: left; padding-bottom: 5px;"><b>6 Jan 2023 | 7:00 PM IST Onwards</b></p>
+            <p style="font-size: 25px; text-align: left; padding-top: 5px;"><b>MLOps Masterclass</b></p>
+            <p style="font-size: 15px; text-align: left; padding-bottom: 5px;"><b>24th Feb 2023 | 10:00 AM IST Onwards</b></p>
             <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -28,8 +28,9 @@
               <div class="container">
                 <div class="row">
                   <div class="col" style="text-align: left;">
-                   <h3>Basic Plan</h3>
-                   <h4 style="color: gray;">₹39,999</h4>
+                   <!-- <h3>Register</h3> -->
+                   <br>
+                   <h4 style="color: gray;">₹2,999</h4>
                    <el-link @click="hide_info_basic_in = true, more_info_basic_in = false" v-if="more_info_basic_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
                    <el-link @click="hide_info_basic_in = false, more_info_basic_in = true" v-if="hide_info_basic_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
                   
@@ -59,86 +60,11 @@
                     </ul>
                   </li>
                   <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"> 10% OFF for MLOps Specialization course</li>
                 </ul>
-                <hr>
+                <br>
                 
-                <div class="row">
-                  <div class="col" style="text-align: left;">
-                   <h3>Advanced Plan</h3>
-                   <h4 style="color: gray;">₹41,999</h4>
-                   <el-link @click="hide_info_adv_in = true, more_info_adv_in = false" v-if="more_info_adv_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
-                   <el-link @click="hide_info_adv_in = false, more_info_adv_in = true" v-if="hide_info_adv_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
-                   <br>
-                  </div>
-                  <div class="col">
-                    <br>
-                    <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-      
-                    <!-- <form ref="razorpayForm2">
-                   
-                    </form> -->
-                    <advanced_in></advanced_in>
-                 
-                  </div>
-                </div>
-                <ul v-if="hide_info_adv_in == true" style="color:gray; font-size: 15px; text-align: left;">
-                  <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
-                    <ul style="color:gray; font-size: 13px; text-align: left;">
-                      <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
-                    </ul>
-                  </li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>6 Month</b> Job Support</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i> </li>
-                </ul>
-                <hr>
-                <div class="row">
-                  <div class="col" style="text-align: left;">
-                   <h3>Advanced Plus Plan</h3>
-                   <h4 style="color: gray;">₹47,999</h4>
-                   <el-link @click="hide_info_advp_in = true, more_info_advp_in = false" v-if="more_info_advp_in == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
-                   <el-link @click="hide_info_advp_in = false, more_info_advp_in = true" v-if="hide_info_advp_in == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
-                  </div>
-                 
-                  <div class="col">
-                    <br>
-                    <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-      
-                    <!-- <form ref="razorpayForm3">
-                     
-                    </form> -->
-                    <advancedplus_in></advancedplus_in>
-                  </div>
-                </div>
               
-                <ul v-if="hide_info_advp_in == true" style="color:gray; font-size: 15px; text-align: left;">
-                  <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
-                    <ul style="color:gray; font-size: 13px; text-align: left;">
-                      <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
-                    </ul>
-                  </li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>1 Year</b> Job Support</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i></li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Instant access <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> Access to previous batch recordings</i></li>
-                </ul>
-                <hr>
               </div>
             </div>
           </div>
@@ -152,8 +78,9 @@
               <div class="container">
                 <div class="row">
                   <div class="col" style="text-align: left;">
-                   <h3>Basic Plan</h3>
-                   <h4 style="color: gray;">$549</h4>
+                   <!-- <h3>Register</h3> -->
+                   <br>
+                   <h4 style="color: gray;">$49</h4>
                    <el-link @click="hide_info_basic_us = true, more_info_basic_us = false" v-if="more_info_basic_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
                    <el-link @click="hide_info_basic_us = false, more_info_basic_us = true" v-if="hide_info_basic_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
                   </div>
@@ -180,81 +107,10 @@
                     </ul>
                   </li>
                   <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
+                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"> 10% OFF for MLOps Specialization course</li>
                 </ul>
-                <hr>
-                <div class="row">
-                  <div class="col" style="text-align: left;">
-                   <h3>Advanced Plan</h3>
-                   <h4 style="color: gray;">$599</h4>
-                   <el-link @click="hide_info_adv_us = true, more_info_adv_us = false" v-if="more_info_adv_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
-                   <el-link @click="hide_info_adv_us = false, more_info_adv_us = true" v-if="hide_info_adv_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
-                  </div>
-                  <div class="col">
-                    <br>
-                    <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-      
-                    <!-- <form ref="razorpayForm5">
-                     
-                    </form> -->
-                    <advanced_us></advanced_us>
-                  </div>
-                </div>
-                <ul v-if="hide_info_adv_us == true" style="color:gray; font-size: 15px; text-align: left;">
-                  <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
-                    <ul style="color:gray; font-size: 13px; text-align: left;">
-                      <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
-                    </ul>
-                  </li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>6 Month</b> Job Support</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i> </li>
-                </ul>
-                <hr>
-                <div class="row">
-                  <div class="col" style="text-align: left;">
-                   <h3>Advanced Plus Plan</h3>
-                   <h4 style="color: gray;">$699</h4>
-                   <el-link  @click="hide_info_advp_us = true, more_info_advp_us = false" v-if="more_info_advp_us == true" type="primary"><i class="el-icon-info"></i>More Info</el-link>
-                   <el-link  @click="hide_info_advp_us = false, more_info_advp_us = true" v-if="hide_info_advp_us == true" type="primary"><i class="el-icon-info"></i>Hide Info</el-link>
-                 
-                  </div>
-                  <div class="col">
-                    <br>
-                    <!-- <el-button @click="centerDialogVisible = true" class="dynamic-button">Register Now</el-button> -->
-                    <!-- <form ref="razorpayForm6">
-                     
-                    </form> -->
-                    <advancedplus_us></advancedplus_us>
-                  </div>
-                </div>
-                <ul v-if="hide_info_advp_us == true" style="color:gray; font-size: 15px; text-align: left;">
-                  <li style="gray: black; font-size: 15px; text-align: left;" class="topic-item">Live training</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Access to Recordings</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Debugging sessions</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">FREE Resources
-                    <ul style="color:gray; font-size: 13px; text-align: left;">
-                      <li style="gray: black; font-size: 13px; text-align: left;" class="topic-item">eBooks</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Webinars</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Job Update</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">FREE Resources</li>
-                      <li style="gray: black; font-size: 13px; text-align: left; " class="topic-item">Interview questions</li>
-                    </ul>
-                  </li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Community Support</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Resume preparation</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item"><b>1 Year</b> Job Support</li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Bonus reattendance opportunity <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> One sign-up, two chances to attend</i></li>
-                  <li style="gray: black; font-size: 15px; text-align: left; " class="topic-item">Instant access <br> <i style="font-size: 12px;"><i class="el-icon-info"></i> Access to previous batch recordings</i></li>
-                </ul>
-                <hr>
+              <br>
+
               </div>
          
             </div>
@@ -275,10 +131,6 @@
 import { Descriptions, DescriptionsItem } from 'element-ui'
 import basic_in from '/src/components/basic_in.vue'
 import basic_us from '/src/components/basic_us.vue'
-import advanced_in from '/src/components/advanced_in.vue'
-import advanced_us from '/src/components/advanced_us.vue'
-import advancedplus_in from '/src/components/advancedplus_in.vue'
-import advancedplus_us from '/src/components/advancedplus_us.vue'
 import WhatsappAPI from '@/components/WhatsappAPI.vue'
 
 
@@ -288,10 +140,6 @@ export default {
     [DescriptionsItem.name]: DescriptionsItem,
     basic_in,
     basic_us,
-    advanced_in,
-    advanced_us,
-    advancedplus_in,
-    advancedplus_us,
     WhatsappAPI
   },
 
@@ -300,20 +148,10 @@ export default {
       more_info_basic_in:true,
       hide_info_basic_in:false,
 
-      more_info_adv_in:true,
-      hide_info_adv_in:false,
-
-      more_info_advp_in:true,
-      hide_info_advp_in:false,
-
       more_info_basic_us:true,
       hide_info_basic_us:false,
 
-      more_info_adv_us:true,
-      hide_info_adv_us:false,
-
-      more_info_advp_us:true,
-      hide_info_advp_us:false
+   
 
     }
   },

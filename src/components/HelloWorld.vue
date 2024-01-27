@@ -393,7 +393,7 @@ center>
 
 <div class="common-layout">
   <!-- <el-header fixed style="background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; "> -->
-    <el-header style="position: fixed; top: 0; width: 100%; background-color: #1b053e; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; z-index: 1000;">
+    <el-header style="position: fixed; top: 0; width: 100%; background-color: #3d0548; display: flex; justify-content: space-between; align-items: center; padding: 20px 20px; z-index: 1000;">
 
     <el-image style="width: 50px; height: 50px; margin-right: 10px;" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Psitron-website/psitron_logo_wit_small.png" fit="fill" />
     <nav style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
@@ -403,12 +403,12 @@ center>
     </nav>
   </el-header>
  
-       <el-main style="background:linear-gradient(to right, #170b47, #412068, #170b47);">
+       <el-main style="background:linear-gradient(to right, #7b0281, rgb(86, 13, 94), #81027f);">
         <br>
         <br>
-         <h3 class="title_1" style="padding-bottom: 5px;padding-left: 20px; padding-right: 20px;padding-top: 5px; background-color: rgba(192, 192, 192, 0.26); color: rgb(251, 105, 52);"><b>Learn to Design production <u>ML Pipelines</u></b></h3>
+         <h3 class="title_1" style="padding-bottom: 5px;padding-left: 20px; padding-right: 20px;padding-top: 5px; background-color: rgba(192, 192, 192, 0.26); color: rgb(241, 251, 52);"><b>Navigating the Landscape of <u>MLOps & LLMosp</u></b></h3>
          <div class="content-wrapper">
-           <h1 class="title" style="margin-top:30px">MLOps Specialization Course</h1>
+           <h1 class="title" style="margin-top:30px">MLOps Masterclass</h1>
            <!-- <h3 class="subtitle">Learn to Design production ML Pipelines</h3> -->
          </div>
 
@@ -416,19 +416,19 @@ center>
  
  <el-row style="background-color: #c500fc23; border-radius: 10px; padding: 10px;">
    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="right-align">
-     <el-image key="" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Course/mlops_course.png" class="drop-shadow" lazy /> &nbsp;&nbsp;&nbsp;
+     <el-image key="" src="https://psitron.s3.ap-southeast-1.amazonaws.com/mlops_masterclass/mlops_mc_poster.jpg" class="drop-shadow" lazy /> &nbsp;&nbsp;&nbsp;
    </el-col> 
    <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="left-align">
      <div class="content-wrapper">
       <br>
      
-       <h2 class="subtitle_2"><b><span class="tick-mark" style="color: #fd6c34;">&#9473;&#9473;&nbsp;</span>Training Features:<span class="tick-mark" style="color: #fd6c34;">&#9473;&#9473;&nbsp;</span></b></h2>
+       <h2 class="subtitle_2"><b><span class="tick-mark" style="color: #fdfa34;">&#9473;&#9473;&nbsp;</span>Training Features:<span class="tick-mark" style="color: #fdfa34;">&#9473;&#9473;&nbsp;</span></b></h2>
        <ul class="topic-list">
       
-         <li class="topic-item"><span class="tick-mark" style="color: #fd6c34;">&#10003;&nbsp;</span><b>70 Hours</b> of Live sessions from Industrial Experts</li>
-         <li class="topic-item"><span class="tick-mark" style="color: #fd6c34;">&#10003;&nbsp;</span><b>50+</b> Live Hands-on Labs</li>
-         <li class="topic-item"><span class="tick-mark" style="color: #fd6c34;">&#10003;&nbsp;</span><b>10+ Real-time</b> industrial projects</li>
-           <li class="topic-item"><span class="tick-mark" style="color: #fd6c34;">&#10003;&nbsp;</span>One-on-One Debugging with Industry Mentors</li>
+         <li class="topic-item"><span class="tick-mark" style="color: #fdfa34;">&#10003;&nbsp;</span><b>10 Hours</b> of Live sessions from Industrial Experts</li>
+         <li class="topic-item"><span class="tick-mark" style="color: #fdfa34;">&#10003;&nbsp;</span><b>10+</b> Live Hands-on Labs</li>
+         <li class="topic-item"><span class="tick-mark" style="color: #fdfa34;">&#10003;&nbsp;</span><b>1+ Real-time</b> industrial projects</li>
+           <li class="topic-item"><span class="tick-mark" style="color: #fdfa34;">&#10003;&nbsp;</span>One-on-One Debugging with Industry Mentors</li>
        </ul>
      </div>
    </el-col>
@@ -438,14 +438,14 @@ center>
          <el-button @click="centerDialogVisible = true"  style="padding: 24px; font-size:20px; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
           <br>
           <br>
-         <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from <b style="color: #fd6c34;">6th January 2024!</b></h4>
+         <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from <b style="color: #fdfa34;">24th February 2024!</b></h4>
     
        </el-main>
 
        <el-main style="background-color: #f2f7f9;">
         <h1 class="title_4" style="color:rgb(38, 40, 131);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Curriculum</b></h1>
-        <p style="font-size: 15px; text-align: center; padding-bottom: 5px;"><b>From 6 Jan 2024 | Every Saturday and Sunday</b></p>
-        <p style="font-size: 15px; text-align: center; color:#29063e; padding-bottom: 5px;"><b>7:00 PM to 11:00 PM IST | 9:30 AM to 1:30 PM EST | 3:30 PM to 7:30 PM CST</b></p>
+        <p style="font-size: 15px; text-align: center; padding-bottom: 5px;"><b>From 24th February 2024 | Every Saturday and Sunday</b></p>
+        <p style="font-size: 15px; text-align: center; color:#29063e; padding-bottom: 5px;"><b>10:00 AM to 2:30 PM IST</b></p>
     
 
         <div class="container">
@@ -460,47 +460,32 @@ center>
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                      <ul style="color: black; font-size: 17px; text-align: left;">
-                       <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">&nbsp;What is MLOps?</li>
-                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Machine learning industrialisation challenges</li>
-                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Motivation: High-level view</li>
-                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps challenges</li>
-                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps challenges similar to DevOps</li>
-                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Components</li>
-                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Machine Learning Life Cycle</li>
-                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;How does it relate to DevOps, AIOps, ModelOps, and GitOps?</li>
-                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Major Phases - what it takes to master MLOps</li>
-                       <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;CI/CD in Production Case Study</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">What is MLOps?</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">MLOps Motivation</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">MLOps challenges</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">MLOps challenges similar to DevOps</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">MLOps Components</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Automated ML pipelines vs CI/CD ML pipelines</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Different Roles involved in MLOps (ML Engineering + Operations)</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Machine Learning Life Cycle</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">MLOps Vs DevOps</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Different tools for MLOps</li>
+                      <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Benefits Of AWS MLOps</li>
                      </ul>
                   </div>
                 </div>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                     <p><b style="color:rgb(255, 123, 0)">Module 2</b>- Introduction to ML and MLOps stages</p>
+                     <p><b style="color:rgb(255, 123, 0)">Module 2</b>- MLOPs for LLM’s (LLMOps) <i style="color:gray">Demo</i></p>
                     </button>
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                    <ul style="color: black; font-size: 17px; text-align: left;">
-                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Maturity Model?</li>
-                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Detailed MLOps and stages</li>
-                     <ul style="color: black; font-size: 17px; text-align: left;">
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Versioning</li>
-          <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Testing</li>
-          <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Automation (CI/CD)</li>
-          <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Reproducibility</li>
-          <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Deployment</li>
-          <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Monitoring</li>
-          
-                     </ul>
-                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;MLOps Architectures</li>
-                     <ul style="color: black; font-size: 17px; text-align: left;">
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Architectures - Open Source tools - Kubeflow, Apache Airflow, MLFlow, Metaflow, Kedro, ZenML, MLRun, CML</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Architectures - Cloud Native tools - AWS, GCP and Azure</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Comparison among cloud-native tools</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;The cost-benefit approach of each architecture and MLOps maturity</li>
-                     </ul>
-                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;List of tools involved in each stage (MLOps tool ecosystem</li>
-                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Different Roles involved in MLOps ( ML Engineering + Operations )</li>
+                    <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">MLOps for LLM’s</li>
+    <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">LLM System Design</li>
+    <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">High-level view LLM-driven application</li>
+    <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">LLMOps Pipeline</li>
               
                    </ul>
                   </div>
@@ -508,16 +493,17 @@ center>
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     <p><b style="color:rgb(255, 123, 0)">Module 3</b>- Introduction to Git<i style="color:gray"> Hands-on</i></p>
+                     <p><b style="color:rgb(255, 123, 0)">Module 3</b>- MLOps & Stages </p>
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                    <ul style="color: black; font-size: 17px; text-align: left;">
-                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Overview of Git</li>
-                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Understanding branching strategies and REPO</li>
-                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Standard GIT branching strategies (development, feature, bug, release, UAT)</li>
-                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Practising important Git commands</li>
-                     <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;GitHub Action overview and working</li>
+                    <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Versioning</li>
+                    <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Testing</li>
+                    <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Automation (CI/CD)</li>
+                    <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Reproducibility</li>
+                    <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Deployment</li>
+                    <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Monitoring</li>
                    </ul>
                   </div>
                 </div>
@@ -526,50 +512,18 @@ center>
           <div class="accordion-item">
            <h2 class="accordion-header" id="headingFour">
              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-               <p><b style="color:rgb(255, 123, 0)">Module 4</b>- Introduction to CI/CD <i style="color:gray">Hands-on</i></p>
+               <p><b style="color:rgb(255, 123, 0)">Module 4</b>- AWS SageMaker <i style="color:gray">Hands-on</i></p>
              </button>
            </h2>
            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
              <ul style="color: black; font-size: 17px; text-align: left;">
-               <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Introduction to CI and CD</li>
-               <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;CI/CD challenges in Machine Learning</li>
-               <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Steps involved in the CI/CD implementation in ML lifecycle and workflow</li>
-               <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;A glimpse of popular Tools used in the DevOps ecosystem on the Cloud.
-                 <ul style="color: black; font-size: 17px; text-align: left;">
-                   <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;AWS DevOp
-                     <ul style="color: black; font-size: 17px; text-align: left;">
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodeCommit</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodePipeline</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodeBuild</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;AWS CodeDeploy</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;<b>Project: </b>AWS DevOps Pipeline</li>              
-                     </ul>
-                   </li>
-                   <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;GCP DevOps
-                     <ul style="color: black; font-size: 17px; text-align: left;">
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Source Repositories</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Run</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Build</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Cloud Deploy</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Artifacts Registry</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;<b>Project: </b> GCP DevOps Pipeline</li>
-                                    
-                     </ul>
-                   </li>
-                   <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure DevOps
-                     <ul style="color: black; font-size: 17px; text-align: left;">
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Boards</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Repos</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Pipeline</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Test Plans</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;Azure Artifacts</li>
-                       <li style="color: black; font-size: 17px; text-align: left; list-style-type: square;" class="topic-item">&nbsp;<b>Project: </b> Azure DevOps Pipeline</li>
-                                    
-                     </ul>
-                   </li>
-                 </ul>
-               
-               </li>
+              <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Introduction to Amazon SageMaker</li>
+              <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Using Amazon S3 along with SageMaker</li>
+              <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Amazon SageMaker Notebooks and SDK</li>
+              <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Notebook instance type, IAM Role & VPC</li>
+              <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Build, Train & deploy ML Model using XGBoost</li>
+              <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Endpoint & Endpoint configurations</li>
+              <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Generate inference from deployed model</li>
                
              </ul>
            </div>
@@ -578,42 +532,14 @@ center>
           <div class="accordion-item">
           <h2 class="accordion-header" id="headingFive">
            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-             <p><b style="color:rgb(255, 123, 0)">Module 5</b>- Docker & Kubernetes Overview <i style="color:gray">Hands-on</i></p>
+             <p><b style="color:rgb(255, 123, 0)">Module 5</b>- CI/CD for MLOps <i style="color:gray">Hands-on</i></p>
            </button>
           </h2>
           <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
            <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Docker Foundation</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Installing Docker on Windows, macOS & Linux</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Managing Containers with Docker Commands</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;How does it work? Docker registry - Docker Hub</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Building your own Docker images</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploy ML model in Docker container</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubernetes Overview</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubernetes Architecture
-               <ul style="color: black; font-size: 17px; text-align: left;">
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Nodes</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Control Plane</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;API Server</li>
-               </ul>
-             </li>
-          
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubernetes Resources
-               <ul style="color: black; font-size: 17px; text-align: left;">
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Pod</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;ConfigMap</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Service</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Secret</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Ingress</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Deployment</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;StatefulSet</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;DaemonSet</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Volumes (PVC)</li>
-                 
-               </ul>
-             </li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Minikube</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploy ML model in Kubernetes cluster</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">AWS CodeCommit</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">AWS CodePipeline</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">AWS CodeBuild</li>
              
            </ul>
           </div>
@@ -623,15 +549,16 @@ center>
           <div class="accordion-item">
           <h2 class="accordion-header" id="headingSix">
            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-             <p><b style="color:rgb(255, 123, 0)">Module 6</b>- Kubernetes Deployment Strategy <i style="color:gray">Hands-on</i></p>
+             <p><b style="color:rgb(255, 123, 0)">Module 6</b>- Sagemaker Studio tools</p>
            </button>
           </h2>
           <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
            <ul style="color: black; font-size: 17px; text-align: left;">
-            <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitoring</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Liveness and Readiness Probes</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Labels and Selectors</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploying an ML Model using Docker and Amazon EKS</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Introduction Sagemaker pipelines</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Containers for Amazon SageMaker</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">AWS MLOps - ML Model Monitoring</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">AWS MLOps - Amazon Sagemaker Feature Store</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">AWS MLOps - Post-Deployment Challenges</li>
            </ul>
           </div>
           </div>
@@ -640,207 +567,21 @@ center>
           <div class="accordion-item">
           <h2 class="accordion-header" id="headingSeven">
            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-             <p><b style="color:rgb(255, 123, 0)">Module 7</b>- Introduction to Model Management  <i style="color:gray">Hands-on</i></p>
+             <p><b style="color:rgb(255, 123, 0)">Module 7</b>- AWS MLOps - Build, Train & deploy ML Model <i style="color:gray">Hands-on</i></p>
            </button>
           </h2>
           <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
            <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;What is a Model Management</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;What are the various activities in Model Management
-               <ul style="color: black; font-size: 17px; text-align: left;">
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Data Versioning</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Code Versioning</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Experiment Tracker</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Model Registry</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Model Monitoring</li>
-                 
-               </ul>
-          
-             </li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;A high-level overview of the below Model Management tools
-               <ul style="color: black; font-size: 17px; text-align: left;">
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;MLFlow</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy MLFlow stack on the cloud</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Build, train, and deploy an ML model using MLFlow Experiments and MLFlow model registry</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;DVC</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Git Large File Storage (LFS)</li>
-                 
-               </ul>
-             </li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">SageMaker Studio & SageMaker domain</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">SageMaker Projects</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Repositories</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Pipelines & Graphs</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Experiments</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Model groups</li>
+            <li style="color: black; font-size: 17px; text-align: left;" class="topic-item">Endpoints</li>
            </ul>
           </div>
           </div>
-          
-          <!-- Accordion Item 8 -->
-          <div class="accordion-item">
-          <h2 class="accordion-header" id="headingEight">
-           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-             <p><b style="color:rgb(255, 123, 0)">Module 8</b>- Feature Store <i style="color:gray">Hands-on</i></p>
-           </button>
-          </h2>
-          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-           <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Introduction to Feature Stores, SageMaker Feature Store, Vertex AI Feature Store, Databricks, Tecton, Feast, Hopsworks etc.</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feast open-source feature store</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feature Store: Online Vs Offline</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Deploy Feast Online/Offline feature store</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Online Feature Store using DynamoDB</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Offline Feature Store using S3</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitor ML features using Amazon SageMaker Feature Store and AWS Glue DataBrew</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitor features programmatically</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Visualizing feature drift over time</li>
-           </ul>
-          </div>
-          </div>
-          
-          <!-- Accordion Item 9 -->
-          <div class="accordion-item">
-          <h2 class="accordion-header" id="headingNine">
-           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-             <p><b style="color:rgb(255, 123, 0)">Module 9</b>- Cloud ML Services 101 <i style="color:gray">Hands-on</i></p>
-           </button>
-          </h2>
-          <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-           <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;AWS SageMaker
-               <ul style="color: black; font-size: 17px; text-align: left;">
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Introduction to Amazon SageMaker</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Using Amazon S3 along with SageMaker</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Amazon SageMaker Notebooks</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Notebook instance type, IAM Role & VPC</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Build, Train & deploy ML Model using SageMaker</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Endpoint & Endpoint configurations</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Generate inference from deployed model</li>
-               </ul>
-             </li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;AWS SageMaker Pipelines
-               <ul style="color: black; font-size: 17px; text-align: left;">
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;SageMaker Studio & SageMaker domain</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;SageMaker Projects</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Repositories</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Pipelines & Graphs</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Experiments</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Model groups</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Endpoints</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy an end-to-end MLOps pipeline using SageMaker Studio</li>
-               </ul>
-             </li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;GCP VertexAI
-               <ul style="color: black; font-size: 17px; text-align: left;">
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Introduction of Vertex AI</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Gather, Import & label datasets</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Build, Train & deploy ML Solutions</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Manage your models with confidence</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Using Pipelines throughout your ML workflow</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Adapting to changes in data</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Creating models with Vertex AI and deploying ML models using aiplatform pipelines</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy an end-to-end MLOps pipeline using Vertex AI</li>
-                 
-               </ul>
-             </li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Azure MLOps
-               <ul style="color: black; font-size: 17px; text-align: left;">
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure Machine Learning Studio</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure MLOps</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure ML components</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure MLOps + DevOps</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Fully automated end-to-end CI/CD ML pipelines</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;<b>Project: </b> Deploy an end-to-end MLOps V2 pipeline using Azure Machine Learning</li>
-               </ul>
-             </li>
-           </ul>
-          </div>
-          </div>
-          
-          <!-- Accordion Item 10 -->
-          <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTen">
-           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-             <p><b style="color:rgb(255, 123, 0)">Module 10</b>- Kubeflow Intro <i style="color:gray">Hands-on</i></p>
-           </button>
-          </h2>
-          <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
-           <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow Introduction</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow- Who uses it</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow features</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow Fairing</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow Pipelines</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Kubeflow use cases</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Pipeline formation with Kubeflow</li>
-           </ul>
-          </div>
-          </div>
-          
-          <!-- Accordion Item 11 -->
-          <div class="accordion-item">
-          <h2 class="accordion-header" id="headingEleven">
-           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-             <p><b style="color:rgb(255, 123, 0)">Module 11</b>- Introduction to Model Monitoring <i style="color:gray">Hands-on</i></p>
-           </button>
-          </h2>
-          <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
-           <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Importance Of Model Monitoring</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;What are the various types of monitoring related to the model</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;The architecture of monitoring ecosystem in AWS/Azure/GCP
-               <ul style="color: black; font-size: 17px; text-align: left;">
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;AWS Model Monitoring</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;Azure Model Monitoring</li>
-                 <li style="color: black; font-size: 17px; text-align: left; list-style-type: circle;" class="topic-item">&nbsp;GCP Model Monitoring</li>
-               </ul>
-             </li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Optimize and Manage Models at the Edge</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Common Issues in ML Model Deployment</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Feedback Loop Role</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Model & infrastructure monitoring using cloud tools</li>
-             
-           </ul>
-          </div>
-          </div>
-          
-          <!-- Accordion Item 12 -->
-          <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwelve">
-           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-             <p><b style="color:rgb(255, 123, 0)">Module 12</b>- Introduction to Automl tools <i style="color:gray">Demo</i></p>
-           </button>
-          </h2>
-          <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
-           <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;H20 MLOps</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Valohai</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Domino Data Lab</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;neptune.ai</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;iguazio</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;W&B</li>
-             
-           </ul>
-          </div>
-          </div>
-          
-          <!-- Accordion Item 13 -->
-          <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThirteen">
-           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-             <p><b style="color:rgb(255, 123, 0)">Module 13</b>- Post-Deployment Challenges <i style="color:gray">Hands-on</i></p>
-           </button>
-          </h2>
-          <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
-           <ul style="color: black; font-size: 17px; text-align: left;">
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment Challenges intro</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment Challenges - ML Related</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Challenges when deploying machine learning to edge devices</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment - Monitoring the Drift - Evidently</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Monitoring the Drift - Using SageMaker</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Post Deployment Challenges - Software Engineering Related</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;Common Issues in ML Model Deployment</li>
-             <li style="color: black; font-size: 17px; text-align: left; " class="topic-item">&nbsp;<b>Project: </b> Evidently AI for Monitoring the Drift</li>
-             
-             
-           </ul>
-             </div>
-           </div>
           
           
               </div>
@@ -855,7 +596,7 @@ center>
     <br>
     <br>
     <p style="font-size: 28px;">Tools Covered</p>
-    <el-image key="url1" src="https://psitron.s3.ap-southeast-1.amazonaws.com/landingpages/tools.png" class="drop-shadow" lazy />
+    <el-image key="url1" src="https://psitron.s3.ap-southeast-1.amazonaws.com/mlops_masterclass/mlops_ms_tools.jpg" class="drop-shadow" lazy />
   </el-main>
 
 
@@ -866,7 +607,7 @@ center>
               <div class="row">
                 <div class="col">
                   <div class="o-video">
-                    <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/Duux2bjmXwk?si=2GN8ViioWBhAGHG6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe style=" background-color: #9000ffcc; border-radius: 10px; padding: 1px;" src="https://www.youtube.com/embed/NBriAHKknV0?si=gj9I03X90rU-8ZFu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                   <br>
                   </div>
@@ -888,7 +629,7 @@ center>
     </div>        
   </el-main> 
  
-       <el-main style="background:linear-gradient(to right, #46006f, #8b23b4, #6f19d9);">
+       <el-main style="background:linear-gradient(to right, #7b0281, rgb(86, 13, 94), #81027f);">
          
          <!-- <el-avatar shape="squaree" :size="size" :src="squareeUrl" /> -->
          <h1 class="title_3">Meet Our POWERFUL</h1>
@@ -1012,10 +753,10 @@ center>
   
        </el-main>
  
-       <el-main style="background:linear-gradient(to right, #170b47, #412068, #170b47);">
+       <el-main style="background:linear-gradient(to right, #7b0281, rgb(86, 13, 94), #81027f);">
        
  
-       <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from 6th January 2024!</h4>
+       <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from 24th February 2024!</h4>
        <el-button @click="centerDialogVisible = true"  style="padding: 24px;font-size:20px; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
              </el-main> 
        
@@ -1028,7 +769,7 @@ center>
          <el-image key="url2" src="https://psitron.s3.ap-southeast-1.amazonaws.com/Course/cloudshare.jpeg" class="drop-shadow" lazy />
        </el-main>
  
-       <el-main style="background:linear-gradient(to right, #5800dc, #860aeb, #7e01ab);">
+       <el-main style="background:linear-gradient(to right, #7b0281, rgb(86, 13, 94), #81027f);">
         <h1 class="title_4" style="color:rgb(255, 230, 0);  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Skills to Master</h1>
         <br>
    <div class="container">
@@ -1042,44 +783,25 @@ center>
               <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;AWS CodeCommit</li>
               <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;AWS CodePipeline</li>
               <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;AWS CodeBuild</li>
-              <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;AWS CodeDeploy</li>
-              <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;GCP</li>
-              <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Cloud Source Repositories</li>
-              <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Cloud Run</li>
-              <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Cloud Build</li>
-              <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Cloud Deploy</li>
-
-              <li class="topic-item">&nbsp;Artifacts Registry</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Azure</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Azure Boards</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Azure Repos</li>
-
-
-
+              <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Model Registry</li>
         </ul>
         
         
       </div>
       <div class="col">
         <ul style="color: white; font-size: 17px; list-style-type:none; text-align: left;">
-          <li  class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Azure Pipeline</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Azure Test Plans</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Azure Artifacts</li>
-          <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Kubernetes</li>
-          <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Amazon EKS</li>
           <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;MLFlow</li>
-          <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;DVC</li>
-          <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Git Large File Storage (LFS)</li>
+          <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Data Versioning</li>
           <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;AWS SageMaker</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Vertex AI</li>
 <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Feast</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;DynamoDB</li>
 <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;S3</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;AWS Glue</li>
 <li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;SageMaker Pipelines</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Azure Machine learning studio</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Kubeflow</li>
-<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;Evidently</li>
+<li class="topic-item"><i class="fas fa-book-open"></i>&nbsp;SageMaker Studio</li>
+
+
+
+
+
 
         </ul>
       </div>
@@ -1112,10 +834,10 @@ center>
        </el-main>
  
  
-       <el-main style="background:linear-gradient(to right, #170b47, #412068, #170b47);">
+       <el-main style="background:linear-gradient(to right, #7b0281, rgb(86, 13, 94), #81027f);">
        
  
-       <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from 6th January 2024!</h4>
+       <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from 24th February 2024!</h4>
        <el-button @click="centerDialogVisible = true"  style="padding: 24px; font-size:20px; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
              </el-main> 
  
@@ -1165,7 +887,7 @@ center>
           </el-mnain>
  
  
-          <el-main style="background:linear-gradient(to right, #170b47, #412068, #170b47);">
+          <el-main style="background:linear-gradient(to right, #7b0281, rgb(86, 13, 94), #81027f);">
            <!-- <p style="font-size: 28px;">Participants Feedback</p> -->
            <h1 class="title_4" style="color:rgb(247, 218, 100) ;  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"><b>Participants Feedback</b></h1>
  
@@ -1246,10 +968,10 @@ center>
 
  </el-main>
  
- <el-main style="background:linear-gradient(to right, #9b54b2, #682064, #954676);">
+ <el-main style="background:linear-gradient(to right, #7b0281, rgb(86, 13, 94), #81027f);">
        
  
-       <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from 6th January 2024!</h4>
+       <h4 class="subtitle_1"><b>100% Hands-on</b> - Mark Your Calendar starting from 24th February 2024!</h4>
        <el-button @click="centerDialogVisible = true"  style="padding: 24px; font-size:20px; background: linear-gradient(to right, #d8342f, #fd6c34, #ff7b00); color: #fff; font-weight: bold;">Register Now</el-button>
              </el-main> 
  
@@ -1307,7 +1029,7 @@ center>
  </el-main>
  
  
- <el-main style="background:linear-gradient(to right, #170b47, #412068, #170b47);">
+ <el-main style="background:linear-gradient(to right, #7b0281, rgb(86, 13, 94), #81027f);">
    <footer>
    <br>
    <div class="footer-links">
@@ -1444,7 +1166,8 @@ export default {
         "last_name":this.lastname,
         "email":this.email,
         "phone":this.results.formattedNumber,
-        "lead_status":"payment"
+        "lead_status":"payment",
+        "program_type":"mlops_mc"
         },
         "mode":"put_item"
       
@@ -1488,7 +1211,8 @@ export default {
         "last_name":this.lastname,
         "email":this.email,
         "phone":this.results.formattedNumber,
-        "lead_status":"curriculum"
+        "lead_status":"curriculum",
+        "program_type":"mlops_mc"
         },
         "mode":"put_item"
       
@@ -1537,7 +1261,8 @@ export default {
         "email":this.email,
         "phone":this.results.formattedNumber,
         "lead_status":"enquiry",
-        "message_body":this.message
+        "message_body":this.message,
+        "program_type":"mlops_mc"
         },
         "mode":"put_item"
       
