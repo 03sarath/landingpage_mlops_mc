@@ -1,0 +1,15 @@
+{
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-landingpagemlopsmc-master-103957-authRole",
+      "UnauthRoleArn": "arn:aws:iam::923307152276:role/amplify-landingpagemlopsmc-master-103957-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::923307152276:role/amplify-landingpagemlopsmc-master-103957-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-landingpagemlopsmc-master-103957-deployment",
+      "UnauthRoleName": "amplify-landingpagemlopsmc-master-103957-unauthRole",
+      "StackName": "amplify-landingpagemlopsmc-master-103957",
+      "StackId": "arn:aws:cloudformation:ap-south-1:923307152276:stack/amplify-landingpagemlopsmc-master-103957/510ee9f0-bcd2-11ee-89f8-02ee5932e88f",
+      "AmplifyAppId": "d3owis99y1ha1m"
+    }
+  }
+}
